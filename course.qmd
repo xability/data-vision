@@ -2,3 +2,48 @@
 title: "Course Content"
 ---
 
+
+## Language-agnostic data science 
+* [What is Data Science](modules/1_language-agnostic-ds/01-what-is-data-science.qmd)
+* [What is Tidy Data](modules/1_language-agnostic-ds/02-what-is-tidy-data.qmd)
+* [Data Types](modules/1_language-agnostic-ds/03-data-types.qmd)
+
+## Language-agnostic data visualization 
+* [Bar Plot](modules/2_language-agnostic-vis/01-bar-plot.qmd)
+* [Histogram](modules/2_language-agnostic-vis/02-histogram.qmd)
+* [Line Plot](modules/2_language-agnostic-vis/03-line-plot.qmd)
+* [Box Plot](modules/2_language-agnostic-vis/04-box-plot.qmd)
+* [Heat Map](modules/2_language-agnostic-vis/05-heat-map.qmd)
+* [Scatter Plot](modules/2_language-agnostic-vis/06-scatter-plot.qmd)
+
+## Visual Studio Code
+* [VS Code UI](modules/3_vscode-101/01-vscode-ui.qmd)
+* [Essential Keystrokes](modules/3_vscode-101/02-essential-keystrokes.qmd)
+* [Settings](modules/3_vscode-101/03-settings.qmd)
+* [File Editing](modules/3_vscode-101/04-file-editing.qmd)
+* [Code Navigation](modules/3_vscode-101/05-code-navigation.qmd)
+* [Terminal](modules/3_vscode-101/06-terminal.qmd)
+* [Extensions](modules/3_vscode-101/07-extensions.qmd)
+
+## Intro to MAIDR
+* [Bar Plot (MAIDR)](modules/4_vis-with-maidr/01-bar-plot.qmd)
+* [Histogram (MAIDR)](modules/4_vis-with-maidr/02-histogram.qmd)
+* [Line Plot (MAIDR)](modules/4_vis-with-maidr/03-line-plot.qmd)
+* [Box Plot (MAIDR)](modules/4_vis-with-maidr/04-box-plot.qmd)
+* [Heat Map (MAIDR)](modules/4_vis-with-maidr/05-heat-map.qmd)
+* [Scatter Plot (MAIDR)](modules/4_vis-with-maidr/06-scatter-plot.qmd)
+* [Stacked Bar Plot](modules/4_vis-with-maidr/07-stacked-bar-plot.qmd)
+
+## AI assisted programming
+* [Copilot Intro and Setup](modules/5_github-copilot/01-copilot-intro-and-setup.qmd)
+* [Panel Chat](modules/5_github-copilot/02-panel-chat.qmd)
+* [Quick Chat](modules/5_github-copilot/03-quick-chat.qmd)
+* [Inline Chat](modules/5_github-copilot/04-inline-chat.qmd)
+* [Copilot Edits](modules/5_github-copilot/05-copilot-edits.qmd)
+* [Agent Mode](modules/5_github-copilot/06-agent-mode.qmd)
+* [MCP](modules/5_github-copilot/07-mcp.qmd)
+
+## Misc
+* [Tidy Data with Pandas](modules/advanced_ds-with-py/01-tidy-data-with-pandas.qmd)
+
+## a preview of emerging approaches to AI assisted information seeking
