@@ -1,0 +1,688 @@
+[
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Hello and welcome to our data science bootcamp! I’m your instructor, [Name]. Today, we’re starting our journey into the world of data together. Data science is like having a special toolkit that helps us turn information—such as numbers, words, or lists—into clear answers to questions about the world around us. You don’t need to know any programming yet; today, we’ll focus on understanding the main ideas and how data science can help us solve real problems.\n\n\n\nAt its core, data science brings together three things: 1. Data: any collection of facts, such as customer records, sensor readings, or survey responses. 2. Science: a systematic, repeatable approach—much like following a recipe in a kitchen. 3. Insights: the meaningful answers or patterns we uncover.\nFor example, imagine you ask, “Which product sold most last month?” The data might be a simple table of sales transactions. Following scientific steps, you clean and analyze that table, and your insight could be: “Product X was our bestseller.” That insight helps guide business decisions.\n\n\n\nData science projects often follow a clear, systematic flow:\nStep 1: Import Data\n• Bring raw data into your workspace from files, databases, or APIs (Application Programming Interfaces, which are ways to request data from online services).\nStep 2: Tidy Data\n• Structure your data so each variable is a column, each observation is a row, and each type of unit is in its own table.\nStep 3: Transform & Explore\n• Filter, summarize, and visualize the data to detect patterns and check assumptions.\nStep 4: Model Data\n• Apply statistical methods or predictive techniques to answer your question.\nStep 5: Communicate Results\n• Share your insights with clear explanations, tables, and visual descriptions.\n\n\n\nLet’s use our workflow to answer a simple question: “How long do people spend on our website?”\nImagine we have a list of four people who visited our website yesterday. For each person, we know how many seconds they spent on the site. Here are the times: - The first person spent 2 minutes (which is 120 seconds). - The second person spent 5 minutes (which is 300 seconds). - The third person spent 3 minutes (which is 180 seconds). - The fourth person spent 4 minutes (which is 240 seconds).\nLet’s walk through the steps:\nStep 1: Import Data\n• Our data is the four session times: 120, 300, 180, and 240 seconds.\nStep 2: Tidy Data\n• Each session time is listed separately, with no missing or extra information. The data is tidy.\nStep 3: Transform & Explore\n• We check that all times are positive numbers and there are no mistakes. • Next, we add up all the times: 120 plus 300 plus 180 plus 240 equals 840 seconds in total. • There are 4 people in our list.\nStep 4: Model Data\n• To find the average, we divide the total time by the number of people: 840 divided by 4 equals 210 seconds.\nStep 5: Communicate Results\n• We can say: “On average, each person spent 210 seconds on the website.” • To make it even clearer, 210 seconds is the same as 3 minutes and 30 seconds.\nThis example shows how we start with a simple question and use data, step by step, to find a clear answer.\n\n\n\nNow it’s your turn: think of one question you find interesting. What data would you need to answer it? Take a moment to type or speak your question in the discussion board. Exploring different questions builds your curiosity—a key skill in data science.\n\n\n\n\nIn our next lecture, we’ll learn conceptually what “tidy data” is, why it matters, and how it sets the stage for smooth analysis—no code required yet.\n\nThank you for joining today’s session. I look forward to seeing your questions and continuing our journey into data science!"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#welcome",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#welcome",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Hello and welcome to our data science bootcamp! I’m your instructor, [Name]. Today, we’re starting our journey into the world of data together. Data science is like having a special toolkit that helps us turn information—such as numbers, words, or lists—into clear answers to questions about the world around us. You don’t need to know any programming yet; today, we’ll focus on understanding the main ideas and how data science can help us solve real problems."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#what-is-data-science-1",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#what-is-data-science-1",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "At its core, data science brings together three things: 1. Data: any collection of facts, such as customer records, sensor readings, or survey responses. 2. Science: a systematic, repeatable approach—much like following a recipe in a kitchen. 3. Insights: the meaningful answers or patterns we uncover.\nFor example, imagine you ask, “Which product sold most last month?” The data might be a simple table of sales transactions. Following scientific steps, you clean and analyze that table, and your insight could be: “Product X was our bestseller.” That insight helps guide business decisions."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#data-science-workflow",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#data-science-workflow",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Data science projects often follow a clear, systematic flow:\nStep 1: Import Data\n• Bring raw data into your workspace from files, databases, or APIs (Application Programming Interfaces, which are ways to request data from online services).\nStep 2: Tidy Data\n• Structure your data so each variable is a column, each observation is a row, and each type of unit is in its own table.\nStep 3: Transform & Explore\n• Filter, summarize, and visualize the data to detect patterns and check assumptions.\nStep 4: Model Data\n• Apply statistical methods or predictive techniques to answer your question.\nStep 5: Communicate Results\n• Share your insights with clear explanations, tables, and visual descriptions."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#concrete-example",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#concrete-example",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Let’s use our workflow to answer a simple question: “How long do people spend on our website?”\nImagine we have a list of four people who visited our website yesterday. For each person, we know how many seconds they spent on the site. Here are the times: - The first person spent 2 minutes (which is 120 seconds). - The second person spent 5 minutes (which is 300 seconds). - The third person spent 3 minutes (which is 180 seconds). - The fourth person spent 4 minutes (which is 240 seconds).\nLet’s walk through the steps:\nStep 1: Import Data\n• Our data is the four session times: 120, 300, 180, and 240 seconds.\nStep 2: Tidy Data\n• Each session time is listed separately, with no missing or extra information. The data is tidy.\nStep 3: Transform & Explore\n• We check that all times are positive numbers and there are no mistakes. • Next, we add up all the times: 120 plus 300 plus 180 plus 240 equals 840 seconds in total. • There are 4 people in our list.\nStep 4: Model Data\n• To find the average, we divide the total time by the number of people: 840 divided by 4 equals 210 seconds.\nStep 5: Communicate Results\n• We can say: “On average, each person spent 210 seconds on the website.” • To make it even clearer, 210 seconds is the same as 3 minutes and 30 seconds.\nThis example shows how we start with a simple question and use data, step by step, to find a clear answer."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#reflection-and-exploration",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#reflection-and-exploration",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Now it’s your turn: think of one question you find interesting. What data would you need to answer it? Take a moment to type or speak your question in the discussion board. Exploring different questions builds your curiosity—a key skill in data science."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/01-what-is-data-science.html#next-steps",
+    "href": "modules/1_language-agnostic-ds/01-what-is-data-science.html#next-steps",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "In our next lecture, we’ll learn conceptually what “tidy data” is, why it matters, and how it sets the stage for smooth analysis—no code required yet.\n\nThank you for joining today’s session. I look forward to seeing your questions and continuing our journey into data science!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re exploring scatter plots - a powerful visualization for showing relationships between two numerical variables. We’ll learn how to understand these plots through clear descriptions and patterns.\n\n\n\nA scatter plot shows how two numerical variables relate to each other where: - Each point represents one observation - Horizontal position shows value of first variable (x-axis) - Vertical position shows value of second variable (y-axis) - Pattern of points reveals relationship type\nThink of it like mapping coordinates on a grid, where each point tells a story about two measurements.\n\n\n\n\nPoints:\n\nEach dot represents one observation\nPosition shows two values\nCan vary in size or shape for additional information\n\nAxes:\n\nX-axis: First variable (horizontal)\nY-axis: Second variable (vertical)\nBoth axes show numerical scales\n\nLabels:\n\nAxis titles\nUnits of measurement\nLegend (if needed)\n\n\n\n\n\nLet’s explore the relationship between height (cm) and weight (kg):\nSample Points: - Person A: 160cm, 55kg - Person B: 175cm, 70kg - Person C: 180cm, 80kg - Person D: 165cm, 60kg\nPattern Description: - As height increases, weight tends to increase - Points roughly follow diagonal pattern - Some variation around the trend - No extreme outliers\n\n\n\n\nPositive Correlation:\n\nPoints trend upward\nAs x increases, y tends to increase\nExample: Height and weight\n\nNegative Correlation:\n\nPoints trend downward\nAs x increases, y tends to decrease\nExample: Temperature and heating costs\n\nNo Correlation:\n\nNo clear pattern\nPoints scattered randomly\nExample: Shoe size and test scores\n\nNon-linear Relationships:\n\nCurved patterns\nU-shapes or other curves\nExample: Age and life satisfaction\n\n\n\n\n\nStep-by-Step Approach: 1. Identify x-axis variable 2. Identify y-axis variable 3. Note the scales 4. Observe overall pattern 5. Look for: - Direction of relationship - Strength of relationship - Unusual points - Clusters or gaps\n\n\n\n\nClear Description:\n\nOverall pattern\nNotable points\nAxis ranges\n\nPattern Description:\n\nDirection (positive/negative)\nStrength (strong/weak)\nShape (linear/curved)\n\nPoint Identification:\n\nImportant observations\nOutliers\nClusters\n\n\n\n\n\n\nScientific Research:\n\nTemperature vs. reaction time\nHeight vs. weight\nAge vs. blood pressure\n\nBusiness Analytics:\n\nPrice vs. sales\nAdvertising vs. revenue\nExperience vs. salary\n\nSocial Studies:\n\nEducation vs. income\nPopulation vs. GDP\nAge vs. internet usage\n\n\n\n\n\n\nScale Issues:\n\nCompressed axes\nMisleading relationships\nInappropriate ranges\n\nMissing Context:\n\nUnlabeled axes\nNo units\nUnclear measurements\n\nOverplotting:\n\nToo many points\nOverlapping data\nUnclear patterns\n\n\n\n\n\nThink about paired measurements in your life: - Study time vs. test scores - Exercise time vs. weight - Sleep hours vs. productivity\nTry describing relationships: - “More study time generally leads to better scores” - “More exercise often relates to lower weight” - “More sleep typically means higher productivity”\nThank you for today’s session! Remember: scatter plots help us understand how two numerical variables relate to each other!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#welcome",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#welcome",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re exploring scatter plots - a powerful visualization for showing relationships between two numerical variables. We’ll learn how to understand these plots through clear descriptions and patterns."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#what-is-a-scatter-plot",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#what-is-a-scatter-plot",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "A scatter plot shows how two numerical variables relate to each other where: - Each point represents one observation - Horizontal position shows value of first variable (x-axis) - Vertical position shows value of second variable (y-axis) - Pattern of points reveals relationship type\nThink of it like mapping coordinates on a grid, where each point tells a story about two measurements."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#key-components",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#key-components",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Points:\n\nEach dot represents one observation\nPosition shows two values\nCan vary in size or shape for additional information\n\nAxes:\n\nX-axis: First variable (horizontal)\nY-axis: Second variable (vertical)\nBoth axes show numerical scales\n\nLabels:\n\nAxis titles\nUnits of measurement\nLegend (if needed)"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#verbal-example-height-and-weight",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#verbal-example-height-and-weight",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Let’s explore the relationship between height (cm) and weight (kg):\nSample Points: - Person A: 160cm, 55kg - Person B: 175cm, 70kg - Person C: 180cm, 80kg - Person D: 165cm, 60kg\nPattern Description: - As height increases, weight tends to increase - Points roughly follow diagonal pattern - Some variation around the trend - No extreme outliers"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-patterns",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-patterns",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Positive Correlation:\n\nPoints trend upward\nAs x increases, y tends to increase\nExample: Height and weight\n\nNegative Correlation:\n\nPoints trend downward\nAs x increases, y tends to decrease\nExample: Temperature and heating costs\n\nNo Correlation:\n\nNo clear pattern\nPoints scattered randomly\nExample: Shoe size and test scores\n\nNon-linear Relationships:\n\nCurved patterns\nU-shapes or other curves\nExample: Age and life satisfaction"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#reading-scatter-plots",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#reading-scatter-plots",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Step-by-Step Approach: 1. Identify x-axis variable 2. Identify y-axis variable 3. Note the scales 4. Observe overall pattern 5. Look for: - Direction of relationship - Strength of relationship - Unusual points - Clusters or gaps"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#accessibility-considerations",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Clear Description:\n\nOverall pattern\nNotable points\nAxis ranges\n\nPattern Description:\n\nDirection (positive/negative)\nStrength (strong/weak)\nShape (linear/curved)\n\nPoint Identification:\n\nImportant observations\nOutliers\nClusters"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-applications",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-applications",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Scientific Research:\n\nTemperature vs. reaction time\nHeight vs. weight\nAge vs. blood pressure\n\nBusiness Analytics:\n\nPrice vs. sales\nAdvertising vs. revenue\nExperience vs. salary\n\nSocial Studies:\n\nEducation vs. income\nPopulation vs. GDP\nAge vs. internet usage"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-pitfalls",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#common-pitfalls",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Scale Issues:\n\nCompressed axes\nMisleading relationships\nInappropriate ranges\n\nMissing Context:\n\nUnlabeled axes\nNo units\nUnclear measurements\n\nOverplotting:\n\nToo many points\nOverlapping data\nUnclear patterns"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/06-scatter-plot.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/06-scatter-plot.html#reflection-and-exploration",
+    "title": "Understanding Scatter Plots",
+    "section": "",
+    "text": "Think about paired measurements in your life: - Study time vs. test scores - Exercise time vs. weight - Sleep hours vs. productivity\nTry describing relationships: - “More study time generally leads to better scores” - “More exercise often relates to lower weight” - “More sleep typically means higher productivity”\nThank you for today’s session! Remember: scatter plots help us understand how two numerical variables relate to each other!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Hello everyone! Today we’re exploring heat maps - a visualization that uses color intensity or patterns to show relationships between two categorical variables. For our blind and low-vision learners, we’ll focus on understanding the structure and interpretation of heat maps through clear verbal descriptions.\n\n\n\nA heat map is like a grid or table where: - Rows represent one category - Columns represent another category - Each cell shows a value through color intensity or pattern - Higher values typically have stronger intensity - Lower values typically have lighter intensity\nThink of it like a temperature grid of a room, where each square represents how warm or cool that spot is.\n\n\n\n\nGrid Layout:\n\nRows and columns form a matrix\nEach cell represents an intersection\nLabels on both axes identify categories\n\nValues Representation:\n\nNumerical values in each cell\nColor intensity shows magnitude\nPatterns can replace colors for accessibility\n\n\n\n\n\nLet’s explore a student’s weekly activity levels across different times:\nDays (Rows): - Monday through Friday\nTime Slots (Columns): - Morning (8-12) - Afternoon (12-4) - Evening (4-8)\nActivity Levels (Cell Values): - High: 8-10 hours (intense) - Medium: 4-7 hours (moderate) - Low: 0-3 hours (light)\nSample Description: “Monday morning shows high activity (9 hours), Monday afternoon is moderate (5 hours), Monday evening is light (2 hours)…”\n\n\n\n\nTime-Based Patterns:\n\nWeekly schedules\nMonthly activities\nSeasonal variations\n\nCorrelation Matrices:\n\nRelationship strength between variables\nPattern identification\nCluster analysis\n\nGeographic Data:\n\nPopulation density\nWeather patterns\nEconomic indicators\n\n\n\n\n\nStep-by-Step Approach: 1. Identify row categories 2. Identify column categories 3. Understand the value scale 4. Read cell values systematically 5. Look for patterns: - Clusters of high values - Clusters of low values - Gradients or transitions\n\n\n\n\nAlternative Representations:\n\nNumerical tables\nTextual descriptions\nPattern-based encoding\n\nClear Labeling:\n\nRow headers\nColumn headers\nValue scales\nUnits of measurement\n\nPattern Description:\n\nSystematic cell-by-cell reading\nHighlight important clusters\nNote significant patterns\n\n\n\n\n\n\nClusters:\n\nGroups of similar values\nHot spots (high values)\nCold spots (low values)\n\nGradients:\n\nSmooth transitions\nValue progression\nDirectional changes\n\nOutliers:\n\nUnexpected high values\nUnexpected low values\nIrregular patterns\n\n\n\n\n\n\nToo Many Categories:\n\nOverwhelming detail\nHard to navigate\nDifficult to remember\n\nPoor Scale Choice:\n\nInsufficient value distinction\nUnclear boundaries\nMisleading patterns\n\nMissing Context:\n\nUndefined units\nUnclear categories\nUnexplained patterns\n\n\n\n\n\nThink about data that could be shown in a heat map: - Your daily schedule - Monthly expenses by category - Activity levels throughout the day\nCreate a simple 3x3 grid describing: - Morning/Afternoon/Evening - High/Medium/Low activity - Pattern descriptions\nThank you for today’s session! Remember: heat maps help us see patterns in two-dimensional categorical data through systematic organization and value representation."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#welcome",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#welcome",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Hello everyone! Today we’re exploring heat maps - a visualization that uses color intensity or patterns to show relationships between two categorical variables. For our blind and low-vision learners, we’ll focus on understanding the structure and interpretation of heat maps through clear verbal descriptions."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#what-is-a-heat-map",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#what-is-a-heat-map",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "A heat map is like a grid or table where: - Rows represent one category - Columns represent another category - Each cell shows a value through color intensity or pattern - Higher values typically have stronger intensity - Lower values typically have lighter intensity\nThink of it like a temperature grid of a room, where each square represents how warm or cool that spot is."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#structure-of-a-heat-map",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#structure-of-a-heat-map",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Grid Layout:\n\nRows and columns form a matrix\nEach cell represents an intersection\nLabels on both axes identify categories\n\nValues Representation:\n\nNumerical values in each cell\nColor intensity shows magnitude\nPatterns can replace colors for accessibility"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#verbal-example-weekly-activity-schedule",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#verbal-example-weekly-activity-schedule",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Let’s explore a student’s weekly activity levels across different times:\nDays (Rows): - Monday through Friday\nTime Slots (Columns): - Morning (8-12) - Afternoon (12-4) - Evening (4-8)\nActivity Levels (Cell Values): - High: 8-10 hours (intense) - Medium: 4-7 hours (moderate) - Low: 0-3 hours (light)\nSample Description: “Monday morning shows high activity (9 hours), Monday afternoon is moderate (5 hours), Monday evening is light (2 hours)…”"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#common-applications",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#common-applications",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Time-Based Patterns:\n\nWeekly schedules\nMonthly activities\nSeasonal variations\n\nCorrelation Matrices:\n\nRelationship strength between variables\nPattern identification\nCluster analysis\n\nGeographic Data:\n\nPopulation density\nWeather patterns\nEconomic indicators"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#reading-a-heat-map",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#reading-a-heat-map",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Step-by-Step Approach: 1. Identify row categories 2. Identify column categories 3. Understand the value scale 4. Read cell values systematically 5. Look for patterns: - Clusters of high values - Clusters of low values - Gradients or transitions"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#accessibility-considerations",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Alternative Representations:\n\nNumerical tables\nTextual descriptions\nPattern-based encoding\n\nClear Labeling:\n\nRow headers\nColumn headers\nValue scales\nUnits of measurement\n\nPattern Description:\n\nSystematic cell-by-cell reading\nHighlight important clusters\nNote significant patterns"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#common-patterns-to-listen-for",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#common-patterns-to-listen-for",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Clusters:\n\nGroups of similar values\nHot spots (high values)\nCold spots (low values)\n\nGradients:\n\nSmooth transitions\nValue progression\nDirectional changes\n\nOutliers:\n\nUnexpected high values\nUnexpected low values\nIrregular patterns"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#common-pitfalls",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#common-pitfalls",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Too Many Categories:\n\nOverwhelming detail\nHard to navigate\nDifficult to remember\n\nPoor Scale Choice:\n\nInsufficient value distinction\nUnclear boundaries\nMisleading patterns\n\nMissing Context:\n\nUndefined units\nUnclear categories\nUnexplained patterns"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/05-heat-map.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/05-heat-map.html#reflection-and-exploration",
+    "title": "Understanding Heat Maps",
+    "section": "",
+    "text": "Think about data that could be shown in a heat map: - Your daily schedule - Monthly expenses by category - Activity levels throughout the day\nCreate a simple 3x3 grid describing: - Morning/Afternoon/Evening - High/Medium/Low activity - Pattern descriptions\nThank you for today’s session! Remember: heat maps help us see patterns in two-dimensional categorical data through systematic organization and value representation."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’ll explore line plots - an essential visualization tool for showing how values change over time or sequence. Line plots help us see trends, patterns, and relationships in data that unfolds over a sequence.\n\n\n\nA line plot connects data points with lines where: - Each point represents a value at a specific time or sequence position - Points are connected by lines to show continuity - The horizontal axis typically shows time or sequence - The vertical axis shows the measured values\nThink of it like tracing your finger along a path that goes up and down, where each position tells you a value at that moment.\n\n\n\nBest suited for: 1. Time series data (values over time) 2. Continuous sequences 3. Showing trends and patterns 4. Comparing multiple related series\nNot suitable for: 1. Categorical comparisons (use bar plots instead) 2. Unordered data 3. Discontinuous data\n\n\n\n\nPoints:\n\nMark actual data measurements\nShow exact values at specific times\n\nLines:\n\nConnect points to show continuity\nIndicate trend between measurements\n\nAxes:\n\nX-axis: Time or sequence (horizontal)\nY-axis: Values being measured (vertical)\n\nLegend (for multiple lines):\n\nIdentifies different data series\nExplains line colors or patterns\n\n\n\n\n\nLet’s explore daily temperatures for a week:\nData Points: - Monday: 20°C - Tuesday: 22°C - Wednesday: 19°C - Thursday: 23°C - Friday: 25°C - Saturday: 24°C - Sunday: 21°C\nWhat the Line Plot Shows: 1. Temperature fluctuations day to day 2. Highest point (peak) on Friday at 25°C 3. Lowest point (valley) on Wednesday at 19°C 4. Overall pattern: slightly increasing then decreasing\n\n\n\n\nSingle Line:\n\nShows one series of data\nExample: Daily temperature\n\nMultiple Lines:\n\nCompare several related series\nExample: Temperatures in different cities\n\nStepped Line:\n\nShows discrete changes\nExample: Interest rate changes\n\n\n\n\n\n\nTrends:\n\nUpward: Values generally increasing\nDownward: Values generally decreasing\nFlat: Values staying stable\n\nCycles:\n\nRegular patterns that repeat\nExample: Seasonal temperature changes\n\nFluctuations:\n\nShort-term ups and downs\nVariation around the trend\n\n\n\n\n\n\nLine Differentiation:\n\nUse different patterns (solid, dashed, dotted)\nVarying thickness\nClear color contrast\n\nData Points:\n\nDistinct markers for each series\nClear labels where needed\n\nClear Labels:\n\nAxes titles\nUnits of measurement\nLegend for multiple lines\n\n\n\n\n\n\nToo Many Lines:\n\nCreates confusion\nHard to distinguish patterns\n\nMissing Context:\n\nUnclear time periods\nUnmarked significant events\n\nScale Issues:\n\nCompressed or stretched axes\nMisleading trends\n\n\n\n\n\nThink about things you measure over time: - Daily steps - Weekly spending - Monthly rainfall\nTry describing the pattern: - “My steps increase during weekdays and drop on weekends” - “Spending peaks at the start of each month” - “Rainfall shows a seasonal pattern”\nThank you for joining today’s session. Remember: line plots help us understand how things change over time!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#welcome",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#welcome",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’ll explore line plots - an essential visualization tool for showing how values change over time or sequence. Line plots help us see trends, patterns, and relationships in data that unfolds over a sequence."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#what-is-a-line-plot",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#what-is-a-line-plot",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "A line plot connects data points with lines where: - Each point represents a value at a specific time or sequence position - Points are connected by lines to show continuity - The horizontal axis typically shows time or sequence - The vertical axis shows the measured values\nThink of it like tracing your finger along a path that goes up and down, where each position tells you a value at that moment."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#when-to-use-line-plots",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#when-to-use-line-plots",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Best suited for: 1. Time series data (values over time) 2. Continuous sequences 3. Showing trends and patterns 4. Comparing multiple related series\nNot suitable for: 1. Categorical comparisons (use bar plots instead) 2. Unordered data 3. Discontinuous data"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#components-of-a-line-plot",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#components-of-a-line-plot",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Points:\n\nMark actual data measurements\nShow exact values at specific times\n\nLines:\n\nConnect points to show continuity\nIndicate trend between measurements\n\nAxes:\n\nX-axis: Time or sequence (horizontal)\nY-axis: Values being measured (vertical)\n\nLegend (for multiple lines):\n\nIdentifies different data series\nExplains line colors or patterns"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#verbal-example-temperature-over-time",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#verbal-example-temperature-over-time",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Let’s explore daily temperatures for a week:\nData Points: - Monday: 20°C - Tuesday: 22°C - Wednesday: 19°C - Thursday: 23°C - Friday: 25°C - Saturday: 24°C - Sunday: 21°C\nWhat the Line Plot Shows: 1. Temperature fluctuations day to day 2. Highest point (peak) on Friday at 25°C 3. Lowest point (valley) on Wednesday at 19°C 4. Overall pattern: slightly increasing then decreasing"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#types-of-line-plots",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#types-of-line-plots",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Single Line:\n\nShows one series of data\nExample: Daily temperature\n\nMultiple Lines:\n\nCompare several related series\nExample: Temperatures in different cities\n\nStepped Line:\n\nShows discrete changes\nExample: Interest rate changes"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#common-patterns-to-listen-for",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#common-patterns-to-listen-for",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Trends:\n\nUpward: Values generally increasing\nDownward: Values generally decreasing\nFlat: Values staying stable\n\nCycles:\n\nRegular patterns that repeat\nExample: Seasonal temperature changes\n\nFluctuations:\n\nShort-term ups and downs\nVariation around the trend"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#accessibility-considerations",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Line Differentiation:\n\nUse different patterns (solid, dashed, dotted)\nVarying thickness\nClear color contrast\n\nData Points:\n\nDistinct markers for each series\nClear labels where needed\n\nClear Labels:\n\nAxes titles\nUnits of measurement\nLegend for multiple lines"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#common-pitfalls",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#common-pitfalls",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Too Many Lines:\n\nCreates confusion\nHard to distinguish patterns\n\nMissing Context:\n\nUnclear time periods\nUnmarked significant events\n\nScale Issues:\n\nCompressed or stretched axes\nMisleading trends"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/03-line-plot.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/03-line-plot.html#reflection-and-exploration",
+    "title": "Understanding Line Plots",
+    "section": "",
+    "text": "Think about things you measure over time: - Daily steps - Weekly spending - Monthly rainfall\nTry describing the pattern: - “My steps increase during weekdays and drop on weekends” - “Spending peaks at the start of each month” - “Rainfall shows a seasonal pattern”\nThank you for joining today’s session. Remember: line plots help us understand how things change over time!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science",
+    "section": "",
+    "text": "We’ll add some juicy home page content here later. Refer to the Modules` page for the modules of the course."
+  },
+  {
+    "objectID": "course.html",
+    "href": "course.html",
+    "title": "Course Content",
+    "section": "",
+    "text": "What is Data Science\nWhat is Tidy Data\nData Types"
+  },
+  {
+    "objectID": "course.html#language-agnostic-data-science",
+    "href": "course.html#language-agnostic-data-science",
+    "title": "Course Content",
+    "section": "",
+    "text": "What is Data Science\nWhat is Tidy Data\nData Types"
+  },
+  {
+    "objectID": "course.html#language-agnostic-data-visualization",
+    "href": "course.html#language-agnostic-data-visualization",
+    "title": "Course Content",
+    "section": "Language-agnostic Data Visualization",
+    "text": "Language-agnostic Data Visualization\n\nBar Plot\nHistogram\nLine Plot\nBox Plot\nHeat Map\nScatter Plot"
+  },
+  {
+    "objectID": "course.html#visual-studio-code",
+    "href": "course.html#visual-studio-code",
+    "title": "Course Content",
+    "section": "Visual Studio Code",
+    "text": "Visual Studio Code\n\nVS Code UI\nEssential Keystrokes\nSettings\nFile Editing\nCode Navigation\nTerminal\nExtensions"
+  },
+  {
+    "objectID": "course.html#intro-to-maidr",
+    "href": "course.html#intro-to-maidr",
+    "title": "Course Content",
+    "section": "Intro to MAIDR",
+    "text": "Intro to MAIDR\n\nBar Plot (MAIDR)\nHistogram (MAIDR)\nLine Plot (MAIDR)\nBox Plot (MAIDR)\nHeat Map (MAIDR)\nScatter Plot (MAIDR)\nStacked Bar Plot"
+  },
+  {
+    "objectID": "course.html#ai-assisted-programming",
+    "href": "course.html#ai-assisted-programming",
+    "title": "Course Content",
+    "section": "AI assisted Programming",
+    "text": "AI assisted Programming\n\nCopilot Intro and Setup\nPanel Chat\nQuick Chat\nInline Chat\nCopilot Edits\nAgent Mode\nMCP"
+  },
+  {
+    "objectID": "course.html#a-preview-of-emerging-approaches-to-ai-assisted-information-seeking",
+    "href": "course.html#a-preview-of-emerging-approaches-to-ai-assisted-information-seeking",
+    "title": "Course Content",
+    "section": "A Preview of Emerging Approaches to AI assisted Information Seeking",
+    "text": "A Preview of Emerging Approaches to AI assisted Information Seeking"
+  },
+  {
+    "objectID": "course.html#misc-data-science-with-python",
+    "href": "course.html#misc-data-science-with-python",
+    "title": "Course Content",
+    "section": "Misc: Data Science with Python",
+    "text": "Misc: Data Science with Python\n\nTidy Data with Pandas"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Hello everyone! Today we’ll explore histograms - a powerful visualization tool for understanding how numerical data is distributed. While similar to bar plots, histograms serve a different purpose that we’ll discover together.\n\n\n\nA histogram shows the distribution of continuous numerical data where: - Data is grouped into ranges called “bins” - Each bin shows how many values fall within that range - Bins are adjacent (touching) because the data is continuous - The height represents frequency (count) or density\nThink of it like sorting items into adjacent boxes based on their measurements, then stacking blocks to show how full each box is.\n\n\n\nKey differences: 1. Data Type: - Histograms: Continuous numerical data (like heights, weights, times) - Bar plots: Categorical data or discrete counts\n\nSpacing:\n\nHistograms: Bars touch (no gaps)\nBar plots: Bars separated by spaces\n\nMeaning:\n\nHistograms: Show distribution shape\nBar plots: Compare categories\n\n\n\n\n\nBins are the foundation of histograms: 1. What are Bins? - Continuous ranges of values - Example: 0-10, 10-20, 20-30, etc.\n\nBin Width\n\nAffects the story your data tells\nToo wide: Hides important patterns\nToo narrow: Shows too much noise\n\n\n\n\n\nLet’s explore student heights in centimeters: - Data range: 150cm to 190cm - Bin width: 10cm\nBins and Counts: - 150-160cm: 5 students (first bar) - 160-170cm: 15 students (third tallest) - 170-180cm: 20 students (tallest) - 180-190cm: 10 students (second tallest)\nWhat This Tells Us: 1. Most students are 170-180cm tall (peak) 2. Heights are roughly symmetric around the middle 3. Fewer students at extreme heights (tails)\n\n\n\n\nBell Shape (Normal)\n\nPeaks in middle\nSymmetric\nExample: Adult heights\n\nSkewed Right\n\nLonger tail on right\nExample: Salaries\n\nSkewed Left\n\nLonger tail on left\nExample: Age at retirement\n\nUniform\n\nAll bins roughly equal\nExample: Random numbers\n\n\n\n\n\nBest for: 1. Understanding data distribution 2. Finding patterns in continuous data 3. Identifying outliers 4. Checking for symmetry or skewness\n\n\n\n\nClear bin labels\nConsistent bin widths\nAppropriate scale\nDescriptive title\nOptional texture patterns\nClear frequency axis\n\n\n\n\n\nInappropriate Bin Width\n\nToo wide: Hides patterns\nToo narrow: Shows noise\n\nMisleading Scales\n\nStarting y-axis above zero\nInconsistent bin widths\n\nMissing Labels\n\nUnclear what’s being measured\nUnmarked axes\n\n\n\n\n\nThink about continuous data in your life: - Daily temperature readings - Time spent on activities - Distance walked each day\nTry describing the pattern you might expect: - “Most days I walk 2-3 kilometers” - “Fewer days with very short or very long walks” - “The distribution would probably peak around 2.5 kilometers”\nThank you for joining today’s session. Remember: histograms help us see the story behind our numbers!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#welcome",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#welcome",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Hello everyone! Today we’ll explore histograms - a powerful visualization tool for understanding how numerical data is distributed. While similar to bar plots, histograms serve a different purpose that we’ll discover together."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#what-is-a-histogram",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#what-is-a-histogram",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "A histogram shows the distribution of continuous numerical data where: - Data is grouped into ranges called “bins” - Each bin shows how many values fall within that range - Bins are adjacent (touching) because the data is continuous - The height represents frequency (count) or density\nThink of it like sorting items into adjacent boxes based on their measurements, then stacking blocks to show how full each box is."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#histogram-vs.-bar-plot",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#histogram-vs.-bar-plot",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Key differences: 1. Data Type: - Histograms: Continuous numerical data (like heights, weights, times) - Bar plots: Categorical data or discrete counts\n\nSpacing:\n\nHistograms: Bars touch (no gaps)\nBar plots: Bars separated by spaces\n\nMeaning:\n\nHistograms: Show distribution shape\nBar plots: Compare categories"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#understanding-bins",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#understanding-bins",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Bins are the foundation of histograms: 1. What are Bins? - Continuous ranges of values - Example: 0-10, 10-20, 20-30, etc.\n\nBin Width\n\nAffects the story your data tells\nToo wide: Hides important patterns\nToo narrow: Shows too much noise"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#verbal-example-height-distribution",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#verbal-example-height-distribution",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Let’s explore student heights in centimeters: - Data range: 150cm to 190cm - Bin width: 10cm\nBins and Counts: - 150-160cm: 5 students (first bar) - 160-170cm: 15 students (third tallest) - 170-180cm: 20 students (tallest) - 180-190cm: 10 students (second tallest)\nWhat This Tells Us: 1. Most students are 170-180cm tall (peak) 2. Heights are roughly symmetric around the middle 3. Fewer students at extreme heights (tails)"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#common-shapes-of-distributions",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#common-shapes-of-distributions",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Bell Shape (Normal)\n\nPeaks in middle\nSymmetric\nExample: Adult heights\n\nSkewed Right\n\nLonger tail on right\nExample: Salaries\n\nSkewed Left\n\nLonger tail on left\nExample: Age at retirement\n\nUniform\n\nAll bins roughly equal\nExample: Random numbers"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#when-to-use-histograms",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#when-to-use-histograms",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Best for: 1. Understanding data distribution 2. Finding patterns in continuous data 3. Identifying outliers 4. Checking for symmetry or skewness"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#accessibility-considerations",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Clear bin labels\nConsistent bin widths\nAppropriate scale\nDescriptive title\nOptional texture patterns\nClear frequency axis"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#common-pitfalls",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#common-pitfalls",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Inappropriate Bin Width\n\nToo wide: Hides patterns\nToo narrow: Shows noise\n\nMisleading Scales\n\nStarting y-axis above zero\nInconsistent bin widths\n\nMissing Labels\n\nUnclear what’s being measured\nUnmarked axes"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/02-histogram.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/02-histogram.html#reflection-and-exploration",
+    "title": "Understanding Histograms",
+    "section": "",
+    "text": "Think about continuous data in your life: - Daily temperature readings - Time spent on activities - Distance walked each day\nTry describing the pattern you might expect: - “Most days I walk 2-3 kilometers” - “Fewer days with very short or very long walks” - “The distribution would probably peak around 2.5 kilometers”\nThank you for joining today’s session. Remember: histograms help us see the story behind our numbers!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re learning about box plots, also called box-and-whisker plots. These powerful visualizations help us understand how numerical data is spread out and where most of our values lie.\n\n\n\nA box plot summarizes data using five key numbers: 1. Minimum value (bottom whisker) 2. First quartile (bottom of box) 3. Median (middle line in box) 4. Third quartile (top of box) 5. Maximum value (top whisker)\nThink of it like dividing your data into four equal parts, then drawing a box with “whiskers” to show its spread.\n\n\n\n\n\n\nBottom of Box: First quartile (Q1)\n\n25% of data falls below this point\n\nLine in Middle: Median\n\n50% of data falls below this point\n\nTop of Box: Third quartile (Q3)\n\n75% of data falls below this point\n\nBox Height: Interquartile range (IQR)\n\nShows where middle 50% of data lies\n\n\n\n\n\n\nBottom Whisker: Extends to minimum value\nTop Whisker: Extends to maximum value\nWhisker Length: Shows spread of non-outlier data\n\n\n\n\n\nPoints beyond whiskers\nIndividual dots above or below whiskers\nUnusually high or low values\n\n\n\n\n\nLet’s explore test scores from 0 to 100: - Minimum: 45 (bottom whisker) - Q1: 65 (bottom of box) - Median: 75 (middle line) - Q3: 85 (top of box) - Maximum: 95 (top whisker)\nWhat This Tells Us: 1. Middle 50% of scores fall between 65 and 85 2. Typical score is 75 (median) 3. Spread is fairly symmetric (similar distance above/below median) 4. No extreme outliers in this case\n\n\n\nBest for: 1. Comparing distributions between groups 2. Identifying outliers 3. Showing data spread 4. Comparing multiple datasets side by side\n\n\n\nExample: Compare test scores across three classes:\nClass A: - Box: 65-85 (median 75) - Whiskers: 45-95\nClass B: - Box: 70-90 (median 80) - Whiskers: 55-98\nClass C: - Box: 60-80 (median 70) - Whiskers: 40-90\nThis shows us: 1. Class B has highest typical scores 2. Class C has lowest typical scores 3. All classes have similar spread\n\n\n\n\nClear Description:\n\nState all five numbers\nDescribe overall shape\nMention any outliers\n\nAlternative Text:\n\nInclude key statistics\nDescribe relative positions\nNote important patterns\n\nData Access:\n\nProvide numerical summaries\nInclude table format\nList outliers separately\n\n\n\n\n\n\nSymmetric Distribution:\n\nEqual whisker lengths\nMedian in middle of box\n\nSkewed Distribution:\n\nUnequal whisker lengths\nMedian closer to one end\n\nOutliers Present:\n\nPoints beyond whiskers\nIndividual markers\n\n\n\n\n\n\nMissing Context:\n\nNot stating units\nUnclear scale\nUndefined outlier criteria\n\nPoor Comparison:\n\nDifferent scales\nMisaligned boxes\nInconsistent widths\n\n\n\n\n\nThink about numerical data you encounter: - Monthly expenses - Daily temperatures - Exercise duration\nQuestions to consider: - What’s the typical value? - How spread out are the values? - Are there any unusual values?\nThank you for today’s session! Remember: box plots help us understand the spread and center of our data in one clear picture."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#welcome",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#welcome",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re learning about box plots, also called box-and-whisker plots. These powerful visualizations help us understand how numerical data is spread out and where most of our values lie."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#what-is-a-box-plot",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#what-is-a-box-plot",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "A box plot summarizes data using five key numbers: 1. Minimum value (bottom whisker) 2. First quartile (bottom of box) 3. Median (middle line in box) 4. Third quartile (top of box) 5. Maximum value (top whisker)\nThink of it like dividing your data into four equal parts, then drawing a box with “whiskers” to show its spread."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#components-of-a-box-plot",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#components-of-a-box-plot",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Bottom of Box: First quartile (Q1)\n\n25% of data falls below this point\n\nLine in Middle: Median\n\n50% of data falls below this point\n\nTop of Box: Third quartile (Q3)\n\n75% of data falls below this point\n\nBox Height: Interquartile range (IQR)\n\nShows where middle 50% of data lies\n\n\n\n\n\n\nBottom Whisker: Extends to minimum value\nTop Whisker: Extends to maximum value\nWhisker Length: Shows spread of non-outlier data\n\n\n\n\n\nPoints beyond whiskers\nIndividual dots above or below whiskers\nUnusually high or low values"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#verbal-example-test-scores",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#verbal-example-test-scores",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Let’s explore test scores from 0 to 100: - Minimum: 45 (bottom whisker) - Q1: 65 (bottom of box) - Median: 75 (middle line) - Q3: 85 (top of box) - Maximum: 95 (top whisker)\nWhat This Tells Us: 1. Middle 50% of scores fall between 65 and 85 2. Typical score is 75 (median) 3. Spread is fairly symmetric (similar distance above/below median) 4. No extreme outliers in this case"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#when-to-use-box-plots",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#when-to-use-box-plots",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Best for: 1. Comparing distributions between groups 2. Identifying outliers 3. Showing data spread 4. Comparing multiple datasets side by side"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#multiple-box-plots",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#multiple-box-plots",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Example: Compare test scores across three classes:\nClass A: - Box: 65-85 (median 75) - Whiskers: 45-95\nClass B: - Box: 70-90 (median 80) - Whiskers: 55-98\nClass C: - Box: 60-80 (median 70) - Whiskers: 40-90\nThis shows us: 1. Class B has highest typical scores 2. Class C has lowest typical scores 3. All classes have similar spread"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#accessibility-considerations",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Clear Description:\n\nState all five numbers\nDescribe overall shape\nMention any outliers\n\nAlternative Text:\n\nInclude key statistics\nDescribe relative positions\nNote important patterns\n\nData Access:\n\nProvide numerical summaries\nInclude table format\nList outliers separately"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#common-patterns",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#common-patterns",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Symmetric Distribution:\n\nEqual whisker lengths\nMedian in middle of box\n\nSkewed Distribution:\n\nUnequal whisker lengths\nMedian closer to one end\n\nOutliers Present:\n\nPoints beyond whiskers\nIndividual markers"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#common-pitfalls",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#common-pitfalls",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Missing Context:\n\nNot stating units\nUnclear scale\nUndefined outlier criteria\n\nPoor Comparison:\n\nDifferent scales\nMisaligned boxes\nInconsistent widths"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/04-box-plot.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/04-box-plot.html#reflection-and-exploration",
+    "title": "Understanding Box Plots",
+    "section": "",
+    "text": "Think about numerical data you encounter: - Monthly expenses - Daily temperatures - Exercise duration\nQuestions to consider: - What’s the typical value? - How spread out are the values? - Are there any unusual values?\nThank you for today’s session! Remember: box plots help us understand the spread and center of our data in one clear picture."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re starting our journey into data visualization with one of the most common and versatile chart types: the bar plot. Before we learn how to create these using programming, let’s understand what they are and how to interpret them.\n\n\n\nA bar plot (or bar chart) represents data using rectangular bars where: - The length (or height) of each bar represents a value - Each bar typically represents a different category - Bars can be vertical (standing up) or horizontal (lying down) - The space between bars helps distinguish different categories\nThink of it like building blocks stacked to different heights, where each stack represents a number for a specific category.\n\n\n\n\n\n\nShows a single value for each category\nExample: Number of students in different grades\n\nGrade 1: 25 students (one bar)\nGrade 2: 30 students (one bar)\nGrade 3: 28 students (one bar)\n\n\n\n\n\n\nShows multiple values for each category\nExample: Number of students by gender in each grade\n\nGrade 1: 12 boys, 13 girls (two bars)\nGrade 2: 14 boys, 16 girls (two bars)\nGrade 3: 15 boys, 13 girls (two bars)\n\n\n\n\n\n\nShows parts of a whole for each category\nExample: Student performance levels in each grade\n\nGrade 1: 10 Advanced + 8 Proficient + 7 Basic (one bar divided into three sections)\nGrade 2: 12 Advanced + 10 Proficient + 8 Basic\nGrade 3: 8 Advanced + 12 Proficient + 8 Basic\n\n\n\n\n\n\nBar plots are best for: 1. Comparing quantities across categories 2. Showing distribution of data across groups 3. Displaying part-to-whole relationships (stacked bars) 4. Highlighting differences between groups\n\n\n\nLet’s explore a simple bar plot about book genres in a library:\nData Description: - Fiction: 500 books (tallest bar) - Non-fiction: 300 books (medium bar) - Children’s: 400 books (second tallest bar) - Reference: 100 books (shortest bar)\nKey Features to Notice: 1. Each genre is a separate bar 2. Height corresponds to number of books 3. Bars are evenly spaced 4. Each bar has a label (genre name) 5. Numbers increase from bottom to top\n\n\n\nWhen working with bar plots: 1. Color alone should never be the only way to distinguish bars 2. Patterns or textures can help differentiate bars 3. Clear labels are essential 4. A proper title explains what the plot shows 5. Scale should start at zero to avoid misrepresentation\n\n\n\n\nTruncated Axes: Starting y-axis above zero can exaggerate differences\nToo Many Categories: Too many bars make the plot hard to understand\nUnclear Labels: Vague or missing labels make interpretation impossible\nMissing Context: Not providing units or time period\nPoor Ordering: Random category order when a logical order exists\n\n\n\n\nThink about data you encounter in daily life that could be shown in a bar plot: - Monthly expenses by category - Time spent on different activities - Items in your grocery list by quantity\nFor example, describe how you would represent the number of times you ate different fruits last week: - Apples: 5 times - Bananas: 3 times - Oranges: 4 times\nHow would you arrange these bars? What would you label them?\n\n\n\nThis understanding of bar plots forms the foundation for: 1. Creating plots in programming languages 2. Making informed decisions about data visualization 3. Interpreting graphs in research and media 4. Communicating data findings effectively\nThank you for joining today’s session. Remember: a well-designed bar plot tells a clear story about your data!"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#welcome",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#welcome",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Hello everyone! Today we’re starting our journey into data visualization with one of the most common and versatile chart types: the bar plot. Before we learn how to create these using programming, let’s understand what they are and how to interpret them."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#what-is-a-bar-plot",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#what-is-a-bar-plot",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "A bar plot (or bar chart) represents data using rectangular bars where: - The length (or height) of each bar represents a value - Each bar typically represents a different category - Bars can be vertical (standing up) or horizontal (lying down) - The space between bars helps distinguish different categories\nThink of it like building blocks stacked to different heights, where each stack represents a number for a specific category."
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#types-of-bar-plots",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#types-of-bar-plots",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Shows a single value for each category\nExample: Number of students in different grades\n\nGrade 1: 25 students (one bar)\nGrade 2: 30 students (one bar)\nGrade 3: 28 students (one bar)\n\n\n\n\n\n\nShows multiple values for each category\nExample: Number of students by gender in each grade\n\nGrade 1: 12 boys, 13 girls (two bars)\nGrade 2: 14 boys, 16 girls (two bars)\nGrade 3: 15 boys, 13 girls (two bars)\n\n\n\n\n\n\nShows parts of a whole for each category\nExample: Student performance levels in each grade\n\nGrade 1: 10 Advanced + 8 Proficient + 7 Basic (one bar divided into three sections)\nGrade 2: 12 Advanced + 10 Proficient + 8 Basic\nGrade 3: 8 Advanced + 12 Proficient + 8 Basic"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#when-to-use-bar-plots",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#when-to-use-bar-plots",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Bar plots are best for: 1. Comparing quantities across categories 2. Showing distribution of data across groups 3. Displaying part-to-whole relationships (stacked bars) 4. Highlighting differences between groups"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#verbal-example-understanding-a-bar-plot",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#verbal-example-understanding-a-bar-plot",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Let’s explore a simple bar plot about book genres in a library:\nData Description: - Fiction: 500 books (tallest bar) - Non-fiction: 300 books (medium bar) - Children’s: 400 books (second tallest bar) - Reference: 100 books (shortest bar)\nKey Features to Notice: 1. Each genre is a separate bar 2. Height corresponds to number of books 3. Bars are evenly spaced 4. Each bar has a label (genre name) 5. Numbers increase from bottom to top"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#accessibility-considerations",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#accessibility-considerations",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "When working with bar plots: 1. Color alone should never be the only way to distinguish bars 2. Patterns or textures can help differentiate bars 3. Clear labels are essential 4. A proper title explains what the plot shows 5. Scale should start at zero to avoid misrepresentation"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#common-pitfalls-to-avoid",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#common-pitfalls-to-avoid",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Truncated Axes: Starting y-axis above zero can exaggerate differences\nToo Many Categories: Too many bars make the plot hard to understand\nUnclear Labels: Vague or missing labels make interpretation impossible\nMissing Context: Not providing units or time period\nPoor Ordering: Random category order when a logical order exists"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#reflection-and-exploration",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#reflection-and-exploration",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "Think about data you encounter in daily life that could be shown in a bar plot: - Monthly expenses by category - Time spent on different activities - Items in your grocery list by quantity\nFor example, describe how you would represent the number of times you ate different fruits last week: - Apples: 5 times - Bananas: 3 times - Oranges: 4 times\nHow would you arrange these bars? What would you label them?"
+  },
+  {
+    "objectID": "modules/2_language-agnostic-vis/01-bar-plot.html#module-connection",
+    "href": "modules/2_language-agnostic-vis/01-bar-plot.html#module-connection",
+    "title": "Understanding Bar Plots",
+    "section": "",
+    "text": "This understanding of bar plots forms the foundation for: 1. Creating plots in programming languages 2. Making informed decisions about data visualization 3. Interpreting graphs in research and media 4. Communicating data findings effectively\nThank you for joining today’s session. Remember: a well-designed bar plot tells a clear story about your data!"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Hello again! I’m [Name], and today we’ll explore a key idea in data science called “tidy data.” Understanding tidy data will make your future work with data much easier and less confusing.\n\n\n\nImagine you’re working with a messy desk—papers are everywhere, and it’s hard to find what you need. Messy data is just like that: it’s hard to work with, and mistakes are easy to make. Tidy data is like having everything organized in neat folders, so you can quickly find and use the information you need.\n\n\n\nTidy data follows three simple rules: 1. Each variable forms a column.\n- A variable is something you measure or record, like “age” or “score.” 2. Each observation forms a row.\n- An observation is one item or event, like one person’s test results. 3. Each type of observational unit forms a table.\n- If you have different things, like students and their test scores, you keep each type in its own table.\n\n\n\nLet’s look at student test score data in both messy and tidy formats.\nMessy Data Example:\n\n\n\nRow\nInformation\n\n\n\n\n1\nAlice, Math: 90, Reading: 85\n\n\n2\nBen got an 80 in Math and Reading score: 88\n\n\n3\nCarla - Math 95, Read. 92\n\n\n\nThis data is messy because: - Each row has a different format - Variables aren’t in consistent columns - Information is mixed together and inconsistently labeled\nTidy Data Example:\n\n\n\nName\nSubject\nScore\n\n\n\n\nAlice\nMath\n90\n\n\nAlice\nReading\n85\n\n\nBen\nMath\n80\n\n\nBen\nReading\n88\n\n\nCarla\nMath\n95\n\n\nCarla\nReading\n92\n\n\n\nThis data is tidy because: - Each variable (Name, Subject, Score) has its own column - Each row is one observation (one student’s score in one subject) - The data is consistent and clearly organized\n\n\n\nTidy data (sometimes called “panel data”) is best understood by thinking about how data is organized in a program like Excel:\nExcel Structure: - A table is the entire grid of data. In Excel, this is your spreadsheet. - A row runs horizontally from left to right, labeled with numbers (1, 2, 3…). - A column runs vertically from top to bottom, labeled with letters (A, B, C…). - A cell is where a row and column intersect (like cell B3). - A column header is typically the first row of your table, containing labels that describe what information is in each column (like “Name”, “Age”, “Score”). - A row header is sometimes the first column, used to identify each record (like an ID number or name).\nTidy Data in Excel Terms: 1. Each variable forms a column - In Excel, each letter-labeled column would contain just one type of information, with a clear column header describing that variable. 2. Each observation forms a row - In Excel, each numbered row would represent one complete record, sometimes with a row header identifying that specific observation. 3. Each type of observational unit forms a table - Different types of related data would be in separate Excel worksheets.\nWhy This Organization Matters: - Easier sorting (click column headers in Excel) - Simpler filtering (use Excel’s filter buttons) - Consistent structure for analysis tools - Clearer pattern recognition - Foundation for more advanced data operations\n\n\n\nThink about a list of your favorite books. How would you organize information about each book—like title, author, and year published—so that each row is one book and each column is one piece of information? Try describing your tidy table out loud or writing it down.\n\n\n\nIn the next lesson, we’ll learn about different data types—like numbers, text, and dates—and why they matter when working with tidy data.\nThank you for joining today’s session. Keep practicing organizing information—you’re building a strong foundation for your data science journey!"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#welcome",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#welcome",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Hello again! I’m [Name], and today we’ll explore a key idea in data science called “tidy data.” Understanding tidy data will make your future work with data much easier and less confusing."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#why-does-data-need-to-be-tidy",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#why-does-data-need-to-be-tidy",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Imagine you’re working with a messy desk—papers are everywhere, and it’s hard to find what you need. Messy data is just like that: it’s hard to work with, and mistakes are easy to make. Tidy data is like having everything organized in neat folders, so you can quickly find and use the information you need."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#what-is-tidy-data-1",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#what-is-tidy-data-1",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Tidy data follows three simple rules: 1. Each variable forms a column.\n- A variable is something you measure or record, like “age” or “score.” 2. Each observation forms a row.\n- An observation is one item or event, like one person’s test results. 3. Each type of observational unit forms a table.\n- If you have different things, like students and their test scores, you keep each type in its own table."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#verbal-example-messy-vs.-tidy-data",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#verbal-example-messy-vs.-tidy-data",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Let’s look at student test score data in both messy and tidy formats.\nMessy Data Example:\n\n\n\nRow\nInformation\n\n\n\n\n1\nAlice, Math: 90, Reading: 85\n\n\n2\nBen got an 80 in Math and Reading score: 88\n\n\n3\nCarla - Math 95, Read. 92\n\n\n\nThis data is messy because: - Each row has a different format - Variables aren’t in consistent columns - Information is mixed together and inconsistently labeled\nTidy Data Example:\n\n\n\nName\nSubject\nScore\n\n\n\n\nAlice\nMath\n90\n\n\nAlice\nReading\n85\n\n\nBen\nMath\n80\n\n\nBen\nReading\n88\n\n\nCarla\nMath\n95\n\n\nCarla\nReading\n92\n\n\n\nThis data is tidy because: - Each variable (Name, Subject, Score) has its own column - Each row is one observation (one student’s score in one subject) - The data is consistent and clearly organized"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#understanding-tidy-data-with-excel",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#understanding-tidy-data-with-excel",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Tidy data (sometimes called “panel data”) is best understood by thinking about how data is organized in a program like Excel:\nExcel Structure: - A table is the entire grid of data. In Excel, this is your spreadsheet. - A row runs horizontally from left to right, labeled with numbers (1, 2, 3…). - A column runs vertically from top to bottom, labeled with letters (A, B, C…). - A cell is where a row and column intersect (like cell B3). - A column header is typically the first row of your table, containing labels that describe what information is in each column (like “Name”, “Age”, “Score”). - A row header is sometimes the first column, used to identify each record (like an ID number or name).\nTidy Data in Excel Terms: 1. Each variable forms a column - In Excel, each letter-labeled column would contain just one type of information, with a clear column header describing that variable. 2. Each observation forms a row - In Excel, each numbered row would represent one complete record, sometimes with a row header identifying that specific observation. 3. Each type of observational unit forms a table - Different types of related data would be in separate Excel worksheets.\nWhy This Organization Matters: - Easier sorting (click column headers in Excel) - Simpler filtering (use Excel’s filter buttons) - Consistent structure for analysis tools - Clearer pattern recognition - Foundation for more advanced data operations"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#reflection-and-exploration",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#reflection-and-exploration",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "Think about a list of your favorite books. How would you organize information about each book—like title, author, and year published—so that each row is one book and each column is one piece of information? Try describing your tidy table out loud or writing it down."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#next-steps",
+    "href": "modules/1_language-agnostic-ds/02-what-is-tidy-data.html#next-steps",
+    "title": "What is Tidy Data?",
+    "section": "",
+    "text": "In the next lesson, we’ll learn about different data types—like numbers, text, and dates—and why they matter when working with tidy data.\nThank you for joining today’s session. Keep practicing organizing information—you’re building a strong foundation for your data science journey!"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Hello everyone! I’m [Name], and today we’re continuing our data science journey by exploring data types. In our previous session, we learned about tidy data organization. Now we’ll focus on the different kinds of information that fill those neatly organized tables. Understanding data types is essential for working with data effectively, regardless of which programming language you eventually use.\n\n\n\nEvery piece of information in your dataset has a specific type - just like in the physical world where we have different types of objects like books, cups, and phones. In data science, we categorize information into specific “types” that tell us:\n\nWhat kind of information we’re working with\nWhat operations we can perform on that information\nHow to store and process the information efficiently\n\nThink of data types as containers designed specifically for different kinds of information.\n\n\n\nData types generally fall into two main categories:\n\n\nThese represent quantities and can be used in mathematical operations:\n\nIntegers: Whole numbers without decimal points.\n\nExamples: 1, 42, -7, 0\nUsed for: Counting things, IDs, ages\n\nFloating-Point Numbers: Numbers with decimal points.\n\nExamples: 3.14, -0.5, 98.6\nUsed for: Measurements, percentages, any number that needs precision\n\n\n\n\n\nThese represent qualities, categories, or non-numeric information:\n\nStrings: Text or character data.\n\nExamples: “Hello”, “Jane Smith”, “42 Main Street”\nUsed for: Names, descriptions, addresses, any text information\nNote: Even if a string contains only digits (like “42”), it’s treated as text, not a number\n\nBoolean: True/False values.\n\nExamples: True, False\nUsed for: Yes/No questions, presence/absence, conditions\n\nCategorical/Factors: Values from a limited set of categories.\n\nUnordered (Nominal) Categories: Categories with no natural order\n\nExamples: Colors (Red, Blue, Green), Blood Types (A, B, AB, O), Genre (Fiction, Non-fiction)\nUsed for: Classification without ranking\n\nOrdered (Ordinal) Categories: Categories with a natural hierarchy or sequence\n\nExamples: Education (High School, Bachelor’s, Master’s, PhD), Rating (Poor, Fair, Good, Excellent)\nUsed for: Ratings, rankings, levels where order matters but exact distance between values isn’t defined\n\nThe distinction matters because ordered categories allow for operations like “greater than” comparisons\n\n\n\n\n\nThese represent points in time:\n\nDate: Calendar dates.\n\nExamples: “2023-05-15”, “January 1, 2000”\nUsed for: Birthdays, holidays, event dates\n\nTime: Clock times.\n\nExamples: “14:30:00”, “9:45 AM”\nUsed for: Appointment times, duration records\n\nDateTime: Combined date and time.\n\nExamples: “2023-05-15 14:30:00”\nUsed for: Event timestamps, records of when something happened\n\n\n\n\n\n\nMissing/NULL: Represents absent or unknown data.\n\nUsed to indicate that a value doesn’t exist or wasn’t recorded\nCan apply to any of the above data types\n\n\n\n\n\n\nLet’s imagine a dataset about library books:\nInteger example: The library has 3 copies of “To Kill a Mockingbird.” - The number 3 is an integer - a whole number with no decimal points.\nFloat example: The book’s user rating is 4.7 out of 5. - 4.7 is a floating-point number because it has a decimal point.\nString example: The author’s name is “Harper Lee.” - “Harper Lee” is a string - a sequence of characters treated as text.\nBoolean example: Is the book currently available? True. - This is a boolean value - either True or False.\nDate example: The book was published on July 11, 1960. - This is a date value, representing a specific day.\nCategorical example: The book’s genre is “Fiction.” - “Fiction” is one value from a limited set of genre categories.\n\n\n\nUnderstanding data types is crucial because:\n\nAppropriate Operations: Different types support different operations.\n\nYou can average ages (numbers) but not names (strings).\nYou can alphabetize names but not add them together.\n\nStorage Efficiency: Proper typing helps store data compactly.\n\nStoring the number 5 as an integer uses less memory than storing it as text “5”.\n\nAnalysis Accuracy: Mistaken types lead to incorrect analysis.\n\nIf ages are accidentally stored as text, calculating the average age won’t work.\n\nData Validation: Types help catch errors.\n\nIf a birth date field contains “apple,” we know there’s an error because “apple” isn’t a valid date.\n\n\n\n\n\n\nNumbers stored as text:\n\nProblem: “42” (string) vs. 42 (integer)\nImpact: Can’t perform calculations like finding averages\n\nDates stored as text:\n\nProblem: “May 1, 2023” stored as plain text\nImpact: Can’t perform date calculations or sort chronologically\n\nMissing values:\n\nProblem: Empty cells, “N/A”, “NULL”, or other placeholders\nImpact: Can skew calculations or analysis if not handled properly\n\n\n\n\n\nThink about a dataset you might use, such as a personal budget or a list of contacts. What data types would each piece of information be? For example, in a contacts list: - Name would be a string - Age would be an integer - Birthday would be a date - “Has email address?” would be a boolean\nTry verbalizing a few examples of your own, identifying what type each piece of information would be.\n\n\n\nCongratulations! You’ve completed the language-agnostic data science foundations module. You now understand what data science is, how to organize data in a tidy format, and the fundamental data types you’ll work with.\nThank you for your participation and engagement throughout this module. The foundations you’ve built here will serve you well as you continue your data science journey!"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#welcome",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#welcome",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Hello everyone! I’m [Name], and today we’re continuing our data science journey by exploring data types. In our previous session, we learned about tidy data organization. Now we’ll focus on the different kinds of information that fill those neatly organized tables. Understanding data types is essential for working with data effectively, regardless of which programming language you eventually use."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#what-are-data-types",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#what-are-data-types",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Every piece of information in your dataset has a specific type - just like in the physical world where we have different types of objects like books, cups, and phones. In data science, we categorize information into specific “types” that tell us:\n\nWhat kind of information we’re working with\nWhat operations we can perform on that information\nHow to store and process the information efficiently\n\nThink of data types as containers designed specifically for different kinds of information."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#common-data-types",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#common-data-types",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Data types generally fall into two main categories:\n\n\nThese represent quantities and can be used in mathematical operations:\n\nIntegers: Whole numbers without decimal points.\n\nExamples: 1, 42, -7, 0\nUsed for: Counting things, IDs, ages\n\nFloating-Point Numbers: Numbers with decimal points.\n\nExamples: 3.14, -0.5, 98.6\nUsed for: Measurements, percentages, any number that needs precision\n\n\n\n\n\nThese represent qualities, categories, or non-numeric information:\n\nStrings: Text or character data.\n\nExamples: “Hello”, “Jane Smith”, “42 Main Street”\nUsed for: Names, descriptions, addresses, any text information\nNote: Even if a string contains only digits (like “42”), it’s treated as text, not a number\n\nBoolean: True/False values.\n\nExamples: True, False\nUsed for: Yes/No questions, presence/absence, conditions\n\nCategorical/Factors: Values from a limited set of categories.\n\nUnordered (Nominal) Categories: Categories with no natural order\n\nExamples: Colors (Red, Blue, Green), Blood Types (A, B, AB, O), Genre (Fiction, Non-fiction)\nUsed for: Classification without ranking\n\nOrdered (Ordinal) Categories: Categories with a natural hierarchy or sequence\n\nExamples: Education (High School, Bachelor’s, Master’s, PhD), Rating (Poor, Fair, Good, Excellent)\nUsed for: Ratings, rankings, levels where order matters but exact distance between values isn’t defined\n\nThe distinction matters because ordered categories allow for operations like “greater than” comparisons\n\n\n\n\n\nThese represent points in time:\n\nDate: Calendar dates.\n\nExamples: “2023-05-15”, “January 1, 2000”\nUsed for: Birthdays, holidays, event dates\n\nTime: Clock times.\n\nExamples: “14:30:00”, “9:45 AM”\nUsed for: Appointment times, duration records\n\nDateTime: Combined date and time.\n\nExamples: “2023-05-15 14:30:00”\nUsed for: Event timestamps, records of when something happened\n\n\n\n\n\n\nMissing/NULL: Represents absent or unknown data.\n\nUsed to indicate that a value doesn’t exist or wasn’t recorded\nCan apply to any of the above data types"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#verbal-examples",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#verbal-examples",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Let’s imagine a dataset about library books:\nInteger example: The library has 3 copies of “To Kill a Mockingbird.” - The number 3 is an integer - a whole number with no decimal points.\nFloat example: The book’s user rating is 4.7 out of 5. - 4.7 is a floating-point number because it has a decimal point.\nString example: The author’s name is “Harper Lee.” - “Harper Lee” is a string - a sequence of characters treated as text.\nBoolean example: Is the book currently available? True. - This is a boolean value - either True or False.\nDate example: The book was published on July 11, 1960. - This is a date value, representing a specific day.\nCategorical example: The book’s genre is “Fiction.” - “Fiction” is one value from a limited set of genre categories."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#why-data-types-matter",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#why-data-types-matter",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Understanding data types is crucial because:\n\nAppropriate Operations: Different types support different operations.\n\nYou can average ages (numbers) but not names (strings).\nYou can alphabetize names but not add them together.\n\nStorage Efficiency: Proper typing helps store data compactly.\n\nStoring the number 5 as an integer uses less memory than storing it as text “5”.\n\nAnalysis Accuracy: Mistaken types lead to incorrect analysis.\n\nIf ages are accidentally stored as text, calculating the average age won’t work.\n\nData Validation: Types help catch errors.\n\nIf a birth date field contains “apple,” we know there’s an error because “apple” isn’t a valid date."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#common-type-confusions-and-pitfalls",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#common-type-confusions-and-pitfalls",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Numbers stored as text:\n\nProblem: “42” (string) vs. 42 (integer)\nImpact: Can’t perform calculations like finding averages\n\nDates stored as text:\n\nProblem: “May 1, 2023” stored as plain text\nImpact: Can’t perform date calculations or sort chronologically\n\nMissing values:\n\nProblem: Empty cells, “N/A”, “NULL”, or other placeholders\nImpact: Can skew calculations or analysis if not handled properly"
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#reflection-and-exploration",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#reflection-and-exploration",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Think about a dataset you might use, such as a personal budget or a list of contacts. What data types would each piece of information be? For example, in a contacts list: - Name would be a string - Age would be an integer - Birthday would be a date - “Has email address?” would be a boolean\nTry verbalizing a few examples of your own, identifying what type each piece of information would be."
+  },
+  {
+    "objectID": "modules/1_language-agnostic-ds/03-data-types.html#module-completion",
+    "href": "modules/1_language-agnostic-ds/03-data-types.html#module-completion",
+    "title": "Understanding Data Types",
+    "section": "",
+    "text": "Congratulations! You’ve completed the language-agnostic data science foundations module. You now understand what data science is, how to organize data in a tidy format, and the fundamental data types you’ll work with.\nThank you for your participation and engagement throughout this module. The foundations you’ve built here will serve you well as you continue your data science journey!"
+  }
+]
