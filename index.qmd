@@ -2,4 +2,4 @@
 title: "Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science"
 ---
 
-We'll add some juicy home page content here later. Refer to the nav bar for the `Course` page. 
+We'll add some juicy home page content here later. Refer to the  [Modules](course.qmd)` page for the modules of the course. 
