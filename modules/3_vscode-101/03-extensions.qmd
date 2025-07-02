@@ -1,0 +1,29 @@
+# 2. Extending VS Code
+
+In this chapter, we will read and write code using a screen reader with VS Code. The first step to do this is to setup python on your computer and configure VS Code to use the right python interpreter.
+
+Note that the basics of python and its installation on to your computer are out of scope for this tutorial. Please refer to information online to install python on your computer. The following steps assume that you have a working version of Python on your computer.
+
+VS Code offers support for various programming languages through extensions. To work with Python, you will need to download the Python extension. Please follow the steps listed below to install the Python extension in your IDE.
+1. Open the command pallet and select the
+```
+Extensions: Install Extensions
+```
+command.
+2. You will be placed in a search box where you can search for extensions.
+3. start typing "python". Your screen reader should announce the number of extensions that match your search term.
+4. press tab to go to the list of extensions. This is a vertical list view with information about the extension's name, the developer of that extension, whether the developer is verified, and a short description of that extension. For python, the screen reader would make an announcement similar to:
+> Python, 2025.8.0, Verified Publisher Microsoft, Python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more. , Rated 4.19 out of 5 stars by 617 users
+2 of 1970
+5. press enter. You will now be taken to a page with the extension's description. The virtual cursor of your screen reader automatically gets activated in this view. You can explore information about the extension using standard web browsing commands.
+6. When you are done reading the information, turn off the virtual cursor (JAWS) or switch back to focus mode (NVDA).
+7. close the extension view by pressing control+w.
+8. Currently, there are focus issues to get to the install button. A work-around semes to be to repeat steps 1 through 5.
+9. Press tab once you are on the python extension.
+10. Press tab until you get to a toolbar that has a button to "install extension". If the extension is already installed, you will see a "manage" button.
+11. Press the install button. You will again be directed to the extension's readme page. Press control plus w to close the readme.
+12. VSCode currently does not provide an alert when an extension is installed. To make sure the extension is installed and running, restart VSCode.
+
+## assignment 2. find an extension
+1. Pick a task you usually perform using the terminal or other user interfaces that is related to programming. Please explain the task.
+2. Search the extension marketplace and tell us if there is an extension that would enable you to do this task inside VS Code. What is the extension?

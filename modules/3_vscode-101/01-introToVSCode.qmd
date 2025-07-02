@@ -1,0 +1,126 @@
+# 0. Welcome
+Welcome to the module to learn about VS Code. This module will walk you through what VSCode is, how to perform basic programming tasks such as editing, navigating, and debugging code. The tutorial will also equip you with some skils to discover the various features that the programming environment offers.
+
+Before we move forward, I would like to offer clarifications of what this tutorial is and is not.
+
+## prerequisits
+- the tutorial expects familiarity with programming
+- the tutorial expects you to have screen reader proficiency.
+- the tutorial is designed keeping Windows users in mind. While most concepts would remain the same for the mac, we are unable to guaranty that some of the keyboard shortcuts we will mention work for Mac users as well.
+
+## tutorial organization
+This tutorial is designed for you to follow along. We introduce you to concepts and features of the IDE. After introducing a set of concept or features, we have instructions for you to perform on your own installation of VS Code. These are under the heading Try it yourself.
+
+We have also provided screen reader announcements under the basic verbosity setting with punctuation verbosity set to all. You will find these in block quotes.
+
+## learning goals
+- to become familiar with basic concepts used to refer to the components of the tool.
+- to become familiar with editing, debugging, and running code.
+- learn how to learn about the features of the programming environment.
+- learn how to provide feedback to the developers of VS Code.
+
+**this tutorial is NOT an exhaustive list of every feature the IDE offers.**
+
+With these expectations set, let's begin our learning journey.
+
+## What is VS Code
+Visual Studio Code (VS Code) is a free, open-source integrated development environment (IDE) developed by Microsoft. Microsoft officially refers to VS Code as an editor. It is also the most accessible IDE to the best of our knowledge, is widely used by developers with and without disabilities [cite StackOverflow Developer Survey]. It is designed for building and debugging modern web, AI and cloud applications. VS Code is highly customizable and supports a wide range of programming languages and extensions.
+
+The IDE comes built-in with support for a good number of widely used programming languages. If the programming language you use is not supported out of the box, the IDE still probably supports it. the typical process of adding support is as simple as searching for the appropriate extension or extension pack for that language, installing it, and modifying a few config files.
+
+## Glocerry
+Here, we will describe a few key components of the IDE and provide a brief definition of what they do.
+
+### IDE components (available to both visual and screen reader users)
+- title bar. This is at the top of the window and typically contains the name of the open file, the workspace, and the status of the file. Screen readers will announce this when you use the read title command (JAWS/NVDA+t) or when switching tabs.
+- **File Explorer**: Located on the far left, this panel lets you browse, open, and manage files and folders in your project. You can access it by pressing Control+Shift+E.
+- **Editor**: The central area of the screen where you view and edit files. By default, the screen reader focus is placed in the editor when you open a file. Multiple files can be opened in tabs, but the screen reader will focus on one file at a time. You can switch between editors with Control+Tab.
+- **Side Bar**: On the left, this contains views like Search, Source Control, Run & Debug, and Extensions.
+- **Problems View**: Shows errors and warnings in your code. Access it by pressing Control+Shift+M.
+- **Notifications Area**: Displays alerts and messages from VS Code and extensions. Screen readers will announce notifications as they appear.
+- **Output Panel**: At the bottom, this area shows output from tasks, extensions, and the integrated terminal.
+- **Status Bar**: At the very bottom, it displays information about your workspace, such as line number, Git branch, and errors.
+- **Activity Bar**: The vertical bar on the far left, used to switch between views like Explorer, Search, Source Control, and Extensions.
+- **Command Palette**: Accessible via Control+Shift+P, this allows you to quickly run commands and access features. This is the single most useful command, even if you forget a keyboard shortcut.
+- **Panel**: At the bottom, this area shows output, terminal, problems, and debug information. You will navigate to individual components here, although you may not directly navigate to the **panel** as you use VS Code with a screen reader.
+
+### screen reader specific components
+- **Accessibility Help**: Press Alt+F1 on any control to open Accessibility Help, which provides information about how to effectively use and navigate that control using a screen reader.
+- **Accessible View**: Provides an accessible reading mode for complex UI elements. This is especially helpful to read long strings of text outputted by VS Code's chat feature.
+
+## Overview of the VS Code UI
+
+Here, I will describe the UI elements in a top-to-bottom, left-to-right order.
+
+Starting from the top, the **title bar** contains the file name and workspace information. Below that, you'll find the **menu bar** (File, Edit, View, etc.) which can be accessed with Alt+F to open the File menu, Alt+E for Edit menu, and so on. You will not be relying on these menues as much as treiditional applications when using VS Code.
+
+Moving down the left side, the **Activity Bar** is positioned vertically and contains icons for switching between different views. Each activity has a keyboard shortcut: Explorer (Ctrl+Shift+E), Search (Ctrl+Shift+F), Source Control (Ctrl+Shift+G), Run and Debug (Ctrl+Shift+D), and Extensions (Ctrl+Shift+X).
+
+The **Side Bar** appears to the right of the Activity Bar and displays the content for the currently selected activity. For example, when Explorer is selected, the Side Bar shows your project's file and folder structure in a tree view. When using a screen reader, you will primarily navigate the activity and side bars using keyboard shortcuts.
+
+The center area is dominated by the **Editor**, where you write and edit your code. Multiple files can be open simultaneously in tabs across the top of the editor. You can navigate between open files using Ctrl+Tab or Ctrl+PageUp/PageDown.
+
+At the bottom of the screen, you'll find the **Status Bar**, which displays contextual information such as the current line and column number, file encoding, language mode, and Git branch information.
+
+Finally, the **Panel** area at the bottom can contain various views including the integrated Terminal, Output, Problems, and Debug Console. You can toggle the panel visibility with Ctrl+J and cycle through panel views using Ctrl+Shift+Y for Debug Console, Ctrl+Shift+U for Output, and Ctrl+Shift+M for Problems.
+
+## key considerations when interacting with VS Code
+
+VS Code is an electron application, just like slack. This means that the best way to interact with VS Code is with your virtual PC cursor turned off ( if you are using JAWS), in focus mode (if you are using NVDA), or with quick nav off (if you are using VoiceOver).
+
+
+## Try it yourself
+
+### instalation
+
+1. install VS Code from [the official download page](https://code.visualstudio.com/download).
+2. Follow the instalation steps. This should be relatively straightforward. Please attend office hours if you are stuck here.
+
+### Open your first file in VS Code
+1. go to a folder containing some plain text files or code files. Plaintext files end with a
+``` .txt ```
+extension.
+2. press the applications key or shift+F10 key to open the applications menu.
+3. choose the "open with code" option.
+
+You should now have VSCode open with an editor containing the file's contents. Before you begin using VS Code, there is one last setup step.
+
+## Screen Reader Optimization
+
+VS Code optimizes several settings when it knows that you are using a screen reader. The IDE should automatically get this information when you launch it for the first time with a screen reader enabled. However, it is important to be able to verify whether the IDE is optimized for use with a screen reader to be able to effectively identify any issues that may arise.
+
+### Try it yourself
+
+
+VS Code knows that it is being used with a screen reader through the setting called
+```
+editor AccessibilitySupport
+```
+
+This should be set to on. To verify this setting, you will need to do the following.
+1. open the command pallet by pressing control+shift+p.
+2. Start typing the word accessibility.
+3. using the up/down arrow keys, go to the option Preferences: open accessibility settings and press enter.
+4. press tab until you go to the settings treview. You will hear something similar to:
+> Settings Tree view Editor Accessibility Page Size. Controls the number of lines in the editor that can be read out by a screen reader at once. When we detect a screen reader we automatically set the default to be 500. Warning: this has a performance implication for numbers larger than the default.
+1 of 67selected To move through or expand items use the Arrow keys.
+JAWS is reading the first setting in this list.
+5. Press the down arrow until you hear
+> Editor Accessibility Support. Modified. Controls if the UI should run in a mode where it is optimized for screen readers.
+
+6. Press tab to verify that the option is set to on. This control works like a standard combo box, where you must first press enter to enter forms mode equivalent, and use the up and down arrow keys to change the option. We highly discourage turning this setting off.
+
+Great! with this setting now enabled, you have everything that you need to get started with using VS Code.
+
+## assignment 0. Accessibility help
+
+1. What is the accessibility help message for the editor screen?
+2. what is the keyboard shortcut for the command pallet?
+3. List the names of 3 accessibility settings you found. What do they mean? do you anticipate modifying any of them?
+
+## what's next
+In the next module, we will dive into VS Code's speech and audio feedback. 
+
+## related resources
+
+[VSCode official accessibility documentation](https://code.visualstudio.com/docs/configure/accessibility/accessibility#:~:text=The%20command%20Open%20Accessibility%20Help,from%20within%20the%20help%20menu.)
