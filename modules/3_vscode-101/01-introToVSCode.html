@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code-navigation – Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science</title>
+<title>introtovscode – Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-630147fbe0b9ab2b2a517857e522e257.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a98ec624fb63d9b712fc3a6f62e2b305.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,8 +108,39 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">0. Welcome</a>
+  <ul class="collapse">
+  <li><a href="#prerequisits" id="toc-prerequisits" class="nav-link" data-scroll-target="#prerequisits">prerequisits</a></li>
+  <li><a href="#tutorial-organization" id="toc-tutorial-organization" class="nav-link" data-scroll-target="#tutorial-organization">tutorial organization</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">learning goals</a></li>
+  <li><a href="#what-is-vs-code" id="toc-what-is-vs-code" class="nav-link" data-scroll-target="#what-is-vs-code">What is VS Code</a></li>
+  <li><a href="#glocerry" id="toc-glocerry" class="nav-link" data-scroll-target="#glocerry">Glocerry</a>
+  <ul class="collapse">
+  <li><a href="#ide-components-available-to-both-visual-and-screen-reader-users" id="toc-ide-components-available-to-both-visual-and-screen-reader-users" class="nav-link" data-scroll-target="#ide-components-available-to-both-visual-and-screen-reader-users">IDE components (available to both visual and screen reader users)</a></li>
+  <li><a href="#screen-reader-specific-components" id="toc-screen-reader-specific-components" class="nav-link" data-scroll-target="#screen-reader-specific-components">screen reader specific components</a></li>
+  </ul></li>
+  <li><a href="#overview-of-the-vs-code-ui" id="toc-overview-of-the-vs-code-ui" class="nav-link" data-scroll-target="#overview-of-the-vs-code-ui">Overview of the VS Code UI</a></li>
+  <li><a href="#key-considerations-when-interacting-with-vs-code" id="toc-key-considerations-when-interacting-with-vs-code" class="nav-link" data-scroll-target="#key-considerations-when-interacting-with-vs-code">key considerations when interacting with VS Code</a></li>
+  <li><a href="#try-it-yourself" id="toc-try-it-yourself" class="nav-link" data-scroll-target="#try-it-yourself">Try it yourself</a>
+  <ul class="collapse">
+  <li><a href="#instalation" id="toc-instalation" class="nav-link" data-scroll-target="#instalation">instalation</a></li>
+  <li><a href="#open-your-first-file-in-vs-code" id="toc-open-your-first-file-in-vs-code" class="nav-link" data-scroll-target="#open-your-first-file-in-vs-code">Open your first file in VS Code</a></li>
+  </ul></li>
+  <li><a href="#screen-reader-optimization" id="toc-screen-reader-optimization" class="nav-link" data-scroll-target="#screen-reader-optimization">Screen Reader Optimization</a>
+  <ul class="collapse">
+  <li><a href="#try-it-yourself-1" id="toc-try-it-yourself-1" class="nav-link" data-scroll-target="#try-it-yourself-1">Try it yourself</a></li>
+  </ul></li>
+  <li><a href="#assignment-0.-accessibility-help" id="toc-assignment-0.-accessibility-help" class="nav-link" data-scroll-target="#assignment-0.-accessibility-help">assignment 0. Accessibility help</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">what’s next</a></li>
+  <li><a href="#related-resources" id="toc-related-resources" class="nav-link" data-scroll-target="#related-resources">related resources</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -117,8 +148,132 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="welcome" class="level1">
+<h1>0. Welcome</h1>
+<p>Welcome to the module to learn about VS Code. This module will walk you through what VSCode is, how to perform basic programming tasks such as editing, navigating, and debugging code. The tutorial will also equip you with some skils to discover the various features that the programming environment offers.</p>
+<p>Before we move forward, I would like to offer clarifications of what this tutorial is and is not.</p>
+<section id="prerequisits" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisits">prerequisits</h2>
+<ul>
+<li>the tutorial expects familiarity with programming</li>
+<li>the tutorial expects you to have screen reader proficiency.</li>
+<li>the tutorial is designed keeping Windows users in mind. While most concepts would remain the same for the mac, we are unable to guaranty that some of the keyboard shortcuts we will mention work for Mac users as well.</li>
+</ul>
+</section>
+<section id="tutorial-organization" class="level2">
+<h2 class="anchored" data-anchor-id="tutorial-organization">tutorial organization</h2>
+<p>This tutorial is designed for you to follow along. We introduce you to concepts and features of the IDE. After introducing a set of concept or features, we have instructions for you to perform on your own installation of VS Code. These are under the heading Try it yourself.</p>
+<p>We have also provided screen reader announcements under the basic verbosity setting with punctuation verbosity set to all. You will find these in block quotes.</p>
+</section>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">learning goals</h2>
+<ul>
+<li>to become familiar with basic concepts used to refer to the components of the tool.</li>
+<li>to become familiar with editing, debugging, and running code.</li>
+<li>learn how to learn about the features of the programming environment.</li>
+<li>learn how to provide feedback to the developers of VS Code.</li>
+</ul>
+<p><strong>this tutorial is NOT an exhaustive list of every feature the IDE offers.</strong></p>
+<p>With these expectations set, let’s begin our learning journey.</p>
+</section>
+<section id="what-is-vs-code" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-vs-code">What is VS Code</h2>
+<p>Visual Studio Code (VS Code) is a free, open-source integrated development environment (IDE) developed by Microsoft. Microsoft officially refers to VS Code as an editor. It is also the most accessible IDE to the best of our knowledge, is widely used by developers with and without disabilities [cite StackOverflow Developer Survey]. It is designed for building and debugging modern web, AI and cloud applications. VS Code is highly customizable and supports a wide range of programming languages and extensions.</p>
+<p>The IDE comes built-in with support for a good number of widely used programming languages. If the programming language you use is not supported out of the box, the IDE still probably supports it. the typical process of adding support is as simple as searching for the appropriate extension or extension pack for that language, installing it, and modifying a few config files.</p>
+</section>
+<section id="glocerry" class="level2">
+<h2 class="anchored" data-anchor-id="glocerry">Glocerry</h2>
+<p>Here, we will describe a few key components of the IDE and provide a brief definition of what they do.</p>
+<section id="ide-components-available-to-both-visual-and-screen-reader-users" class="level3">
+<h3 class="anchored" data-anchor-id="ide-components-available-to-both-visual-and-screen-reader-users">IDE components (available to both visual and screen reader users)</h3>
+<ul>
+<li>title bar. This is at the top of the window and typically contains the name of the open file, the workspace, and the status of the file. Screen readers will announce this when you use the read title command (JAWS/NVDA+t) or when switching tabs.</li>
+<li><strong>File Explorer</strong>: Located on the far left, this panel lets you browse, open, and manage files and folders in your project. You can access it by pressing Control+Shift+E.</li>
+<li><strong>Editor</strong>: The central area of the screen where you view and edit files. By default, the screen reader focus is placed in the editor when you open a file. Multiple files can be opened in tabs, but the screen reader will focus on one file at a time. You can switch between editors with Control+Tab.</li>
+<li><strong>Side Bar</strong>: On the left, this contains views like Search, Source Control, Run &amp; Debug, and Extensions.</li>
+<li><strong>Problems View</strong>: Shows errors and warnings in your code. Access it by pressing Control+Shift+M.</li>
+<li><strong>Notifications Area</strong>: Displays alerts and messages from VS Code and extensions. Screen readers will announce notifications as they appear.</li>
+<li><strong>Output Panel</strong>: At the bottom, this area shows output from tasks, extensions, and the integrated terminal.</li>
+<li><strong>Status Bar</strong>: At the very bottom, it displays information about your workspace, such as line number, Git branch, and errors.</li>
+<li><strong>Activity Bar</strong>: The vertical bar on the far left, used to switch between views like Explorer, Search, Source Control, and Extensions.</li>
+<li><strong>Command Palette</strong>: Accessible via Control+Shift+P, this allows you to quickly run commands and access features. This is the single most useful command, even if you forget a keyboard shortcut.</li>
+<li><strong>Panel</strong>: At the bottom, this area shows output, terminal, problems, and debug information. You will navigate to individual components here, although you may not directly navigate to the <strong>panel</strong> as you use VS Code with a screen reader.</li>
+</ul>
+</section>
+<section id="screen-reader-specific-components" class="level3">
+<h3 class="anchored" data-anchor-id="screen-reader-specific-components">screen reader specific components</h3>
+<ul>
+<li><strong>Accessibility Help</strong>: Press Alt+F1 on any control to open Accessibility Help, which provides information about how to effectively use and navigate that control using a screen reader.</li>
+<li><strong>Accessible View</strong>: Provides an accessible reading mode for complex UI elements. This is especially helpful to read long strings of text outputted by VS Code’s chat feature.</li>
+</ul>
+</section>
+</section>
+<section id="overview-of-the-vs-code-ui" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-the-vs-code-ui">Overview of the VS Code UI</h2>
+<p>Here, I will describe the UI elements in a top-to-bottom, left-to-right order.</p>
+<p>Starting from the top, the <strong>title bar</strong> contains the file name and workspace information. Below that, you’ll find the <strong>menu bar</strong> (File, Edit, View, etc.) which can be accessed with Alt+F to open the File menu, Alt+E for Edit menu, and so on. You will not be relying on these menues as much as treiditional applications when using VS Code.</p>
+<p>Moving down the left side, the <strong>Activity Bar</strong> is positioned vertically and contains icons for switching between different views. Each activity has a keyboard shortcut: Explorer (Ctrl+Shift+E), Search (Ctrl+Shift+F), Source Control (Ctrl+Shift+G), Run and Debug (Ctrl+Shift+D), and Extensions (Ctrl+Shift+X).</p>
+<p>The <strong>Side Bar</strong> appears to the right of the Activity Bar and displays the content for the currently selected activity. For example, when Explorer is selected, the Side Bar shows your project’s file and folder structure in a tree view. When using a screen reader, you will primarily navigate the activity and side bars using keyboard shortcuts.</p>
+<p>The center area is dominated by the <strong>Editor</strong>, where you write and edit your code. Multiple files can be open simultaneously in tabs across the top of the editor. You can navigate between open files using Ctrl+Tab or Ctrl+PageUp/PageDown.</p>
+<p>At the bottom of the screen, you’ll find the <strong>Status Bar</strong>, which displays contextual information such as the current line and column number, file encoding, language mode, and Git branch information.</p>
+<p>Finally, the <strong>Panel</strong> area at the bottom can contain various views including the integrated Terminal, Output, Problems, and Debug Console. You can toggle the panel visibility with Ctrl+J and cycle through panel views using Ctrl+Shift+Y for Debug Console, Ctrl+Shift+U for Output, and Ctrl+Shift+M for Problems.</p>
+</section>
+<section id="key-considerations-when-interacting-with-vs-code" class="level2">
+<h2 class="anchored" data-anchor-id="key-considerations-when-interacting-with-vs-code">key considerations when interacting with VS Code</h2>
+<p>VS Code is an electron application, just like slack. This means that the best way to interact with VS Code is with your virtual PC cursor turned off ( if you are using JAWS), in focus mode (if you are using NVDA), or with quick nav off (if you are using VoiceOver).</p>
+</section>
+<section id="try-it-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="try-it-yourself">Try it yourself</h2>
+<section id="instalation" class="level3">
+<h3 class="anchored" data-anchor-id="instalation">instalation</h3>
+<ol type="1">
+<li>install VS Code from <a href="https://code.visualstudio.com/download">the official download page</a>.</li>
+<li>Follow the instalation steps. This should be relatively straightforward. Please attend office hours if you are stuck here.</li>
+</ol>
+</section>
+<section id="open-your-first-file-in-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="open-your-first-file-in-vs-code">Open your first file in VS Code</h3>
+<ol type="1">
+<li>go to a folder containing some plain text files or code files. Plaintext files end with a <code>.txt</code> extension.</li>
+<li>press the applications key or shift+F10 key to open the applications menu.</li>
+<li>choose the “open with code” option.</li>
+</ol>
+<p>You should now have VSCode open with an editor containing the file’s contents. Before you begin using VS Code, there is one last setup step.</p>
+</section>
+</section>
+<section id="screen-reader-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="screen-reader-optimization">Screen Reader Optimization</h2>
+<p>VS Code optimizes several settings when it knows that you are using a screen reader. The IDE should automatically get this information when you launch it for the first time with a screen reader enabled. However, it is important to be able to verify whether the IDE is optimized for use with a screen reader to be able to effectively identify any issues that may arise.</p>
+<section id="try-it-yourself-1" class="level3">
+<h3 class="anchored" data-anchor-id="try-it-yourself-1">Try it yourself</h3>
+<p>VS Code knows that it is being used with a screen reader through the setting called</p>
+<pre><code>editor AccessibilitySupport</code></pre>
+<p>This should be set to on. To verify this setting, you will need to do the following. 1. open the command pallet by pressing control+shift+p. 2. Start typing the word accessibility. 3. using the up/down arrow keys, go to the option Preferences: open accessibility settings and press enter. 4. press tab until you go to the settings treview. You will hear something similar to: &gt; Settings Tree view Editor Accessibility Page Size. Controls the number of lines in the editor that can be read out by a screen reader at once. When we detect a screen reader we automatically set the default to be 500. Warning: this has a performance implication for numbers larger than the default. 1 of 67selected To move through or expand items use the Arrow keys. JAWS is reading the first setting in this list. 5. Press the down arrow until you hear &gt; Editor Accessibility Support. Modified. Controls if the UI should run in a mode where it is optimized for screen readers.</p>
+<ol start="6" type="1">
+<li>Press tab to verify that the option is set to on. This control works like a standard combo box, where you must first press enter to enter forms mode equivalent, and use the up and down arrow keys to change the option. We highly discourage turning this setting off.</li>
+</ol>
+<p>Great! with this setting now enabled, you have everything that you need to get started with using VS Code.</p>
+</section>
+</section>
+<section id="assignment-0.-accessibility-help" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-0.-accessibility-help">assignment 0. Accessibility help</h2>
+<ol type="1">
+<li>What is the accessibility help message for the editor screen?</li>
+<li>what is the keyboard shortcut for the command pallet?</li>
+<li>List the names of 3 accessibility settings you found. What do they mean? do you anticipate modifying any of them?</li>
+</ol>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">what’s next</h2>
+<p>In the next module, we will dive into VS Code’s speech and audio feedback.</p>
+</section>
+<section id="related-resources" class="level2">
+<h2 class="anchored" data-anchor-id="related-resources">related resources</h2>
+<p><a href="https://code.visualstudio.com/docs/configure/accessibility/accessibility#:~:text=The%20command%20Open%20Accessibility%20Help,from%20within%20the%20help%20menu.">VSCode official accessibility documentation</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
