@@ -17,7 +17,7 @@ title: "Course Content"
 * [Scatter Plot](modules/2_language-agnostic-vis/06-scatter-plot.qmd)
 
 ## Visual Studio Code
-* [Overview of VS Code](modules/3_vscode-101/01.introToVSCode.qmd)
+* [Overview of VS Code](modules/3_vscode-101/01-introToVSCode.qmd)
 * [Speech and Sound Feedback](modules/3_vscode-101/02-audioFeedback.qmd)
 * [Adding Language Support and Installing Extensions](modules/3_vscode-101/03-extensions.qmd)
 * [Reading and Writing Code](modules/3_vscode-101/04-readingWritingCode.qmd)

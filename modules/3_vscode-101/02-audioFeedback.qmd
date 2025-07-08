@@ -1,6 +1,6 @@
 # 1. Understanding VS Code's speech feedback and sound effects
 
-Central to VS Code's screen reader accessibility is its thoughtful and highly customizable feedback mechanisms. The IDE provides realtime information through alerts that are spoken by a screen reader or displayed through a braille display, and sound effects that are played through the user's speaker. I will now show you ways to get familiar with these feedback mechanisms.
+Central to VS Code's screen reader accessibility are its thoughtful and highly customizable feedback mechanisms. The IDE provides realtime information through alerts that are spoken by a screen reader or displayed through a braille display, and sound effects that are played through the user's speaker. I will now show you ways to get familiar with these feedback mechanisms.
 
 ## Sound Effects
 
@@ -18,6 +18,7 @@ Note that this is not an exhaustive list of every sound effect enabled.
 ### Try it yourself
 
 Here, I will show you the steps to explore all the sound effects that VS Code provides.
+
 1. Open the command pallet.
 2. start typing "sound".
 3. You will find an option
@@ -26,6 +27,7 @@ Help: List Signal Sounds
 ```
 4. press enter to select this.
 5. You will now be in a control that is a searchable edit combo box. The screen reader announcement for this may be similar to:
+
 > Select a sound to play and configure Edit Has Popup blank placeholder Select a sound to play and configure Type in text. 35 Results
 
 You can navigate the list of sounds by using the down arrow key. Each sound effect is listed as a checkbox. The sound effect is played as you go through the list. The checkbox indicates the enabled or disabled status of the particular sound effect. In other words, a checked checkbox means that the sound will be played when the action correspond to it occurs as you work in VS Code.
