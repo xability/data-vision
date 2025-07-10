@@ -1,0 +1,56 @@
+# 4. Reading Code
+
+VS Code offers several features to quickly skim the high-level structure of a code file. It also supports standard screen reader commands that you may be familiar with to nnavigate text. In this chapter, we will go through some basic commands and dive deaper into VS Code specific functionality.
+## List of Basic commands
+- arrow keys move by line and character.
+- tab and shift+tab increase and decrease indentation.
+- control+up and down arrow move through units of code.
+
+## VS Code specific commands
+
+VS Code offers several commands to read code.
+- F12: jump to definition. This is handy when you are trying to go to a function definition
+- F8: go to next error or warning.
+- shift+F8: go to previous error or warning.
+- control+k, control+q: go to last edit location.
+
+### Code Folding
+
+VS Code, like most editors, supports the concept of code folding. In simple terms, code folding hides sections of code to show only the structure you want to see. The ability to fold code could be incredible helpful to skim or glance through code files with many levels of nesting, or code files with a large number of lines.
+
+When you fold code, it collabses everything under that particular indentation level. Let me explain this with an example. Consider the following Python function:
+```python
+def add_numbers(a, b):
+    """Add two numbers together and return the result."""
+    result = a + b
+    return result
+```
+
+when you move the cursor to the def add_numbers and invoke The toggle fold
+on that line, the entire function definition colabses into one line. You will only see the def line when you move up/down with a screen reader. VS Code indicates that the line containing the def is a folded line through an audio cue. You can unfold the folded block to read the full function definition again, by invoking the toggle fold command.
+
+
+
+### Try it yourself
+
+1. open the `read_exampleCode.py` file in VS Code.
+2. fold all by pressing control+k, control+0, or by invoking the fold all command from the command pallett.
+3. explore the code structure and gradually unfold each block.
+
+VS Code also offers several other commands to fold code up to specific levels, or recursively fold code from the cursor position.
+
+### Other non-linear Navigation Commands
+
+Beyond code folding, VS Code provides powerful navigation shortcuts that allow you to jump quickly between different parts of your code without reading line by line.
+- **Control+G**: Go to a specific line number - useful when you know exactly which line you want to navigate to
+- **Control+Shift+O**: Go to symbol in file - shows a list of all functions, classes, and variables in the current file
+- **Control+T**: Go to symbol in workspace - search for symbols across your entire project
+- **Control+P**: Quick Open - quickly open any file in your workspace by typing part of its name
+These navigation commands become especially valuable when working with large codebases or complex files like our `read_exampleCode.py` example. Practice using these shortcuts to develop efficient coding habits that will save you time as your projects grow in size and complexity.
+
+## Assignment 3: Code Navigation Practice
+
+1. List any 2 different levels of code folding.
+2. apply these folding levels to your code file.
+3. Describe what effects you observe.
+4. Find the error in the code file. Which line is it in? How did you find it?
