@@ -1,0 +1,30 @@
+# Editing and Writing Code
+
+VS Code operates like most standard text editors and in ways that are very similar to VisualStudio. In this short module, we will learn about some of VS Code's specific functionality that facilitates code editing.
+
+Note: the commands described here assume that Copilot is not enabled. We will cover Copilot in a later module.
+
+## auto completions
+
+VS Code, like most editors, offers intelligent auto-completion suggestions based on the programming language you're using. These suggestions are presented as you type code. For example, if VS Code knows that you are writing code in Python (from the file name and other configuration settings), it suggests ``` print ``` as you type "pr". Your screen reader announces the first suggestion as you type. You can arrow up and down between suggestions and press enter to insert them.
+
+## lightbulbs
+
+Lightbulbs are visual indicators that appear when VS Code has suggestions for improving or fixing your code. these often are shown next to lines with errors, warnings, or potential improvements to convey that VS Code has quick fixes or refactoring options available.
+
+You can know if a line has a lightbulb, and access the code fix suggestions by presssing control+dot (period). Your screen reader will announce the available options, and you can navigate through them using the arrow keys. These suggestions might include fixing syntax errors, importing missing modules, or suggesting more efficient code patterns. This feature is particularly valuable for learning proper coding practices and catching mistakes early.
+
+## Commenting and Formatting Code
+
+VS Code supports the ability to comment single or multiple lines of code using keyboard shortcuts. This can be helpful when testing out variations of code. To comment a line of code, place your cursor on the desired line and press control+k, control+c. VS Code, again, recognizes the language you are writing in, and adds the appropriate single-line comment syntax. You can select multiple lines of code using shift+down arrow, and press the shortcut to comment all of the selected lines. To uncomment a line, press control+k, control+u. If you select multiple lines and press this keyboard shortcut, you will uncomment the code.
+
+VS Code also supports the ability to automatically format code as per a particular specification.
+You can customize formatting preferences by pressing **Control+Shift+P** to open the command palette, then typing "Preferences: Open Settings" and pressing Enter. Search for "formatting" to find relevant options. Here you can choose different formatters for each programming language and adjust indentation, spacing, and other style preferences. To format code, select a block of code, or all of it, and press control+k, control+f. You can also set VS Code to format your code upon save by enabling "Format On Save" in the settings under Editor > Format On Save.
+
+### Linters
+
+Linters are tools that analyze your code for potential errors, style violations, and code quality issues. They help enforce coding standards and catch problems before you run your code. VS Code supports linters for most programming languages through extensions. For example, Python developers often use pylint or flake8, while JavaScript developers might use ESLint. When a linter is active, it will underline problematic code with colored squiggles that VS Code can alert you to, using audio signals.
+
+## Try it yourself
+
+With everything that you have learned in the previous and current chapter, fix the error in the code. Describe the steps you have undertaken to fix the code.

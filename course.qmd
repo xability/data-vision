@@ -21,6 +21,7 @@ title: "Course Content"
 * [Speech and Sound Feedback](modules/3_vscode-101/02-audioFeedback.qmd)
 * [Adding Language Support and Installing Extensions](modules/3_vscode-101/03-extensions.qmd)
 * [Reading Code](modules/3_vscode-101/04-readingCode.qmd)
+* [Editing Code](modules/3_vscode-101/05-writingCode.qmd)
 * [Running Code using the Terminal](modules/3_vscode-101/05-runningCode.qmd)
 
 ## Intro to MAIDR
