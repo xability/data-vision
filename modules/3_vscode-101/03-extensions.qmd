@@ -27,3 +27,5 @@ command.
 ## assignment 2. find an extension
 1. Pick a task you usually perform using the terminal or other user interfaces that is related to programming. Please explain the task.
 2. Search the extension marketplace and tell us if there is an extension that would enable you to do this task inside VS Code. What is the extension?
+
+Great! now that you have added Python support to your editor, you are all set to read and write code using VS Code.
