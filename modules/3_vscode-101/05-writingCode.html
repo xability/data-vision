@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>runningcode – Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science</title>
+<title>writingcode – Empowering Data Vision: a Self-Paced Introduction to the Convergence of AI and Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a98ec624fb63d9b712fc3a6f62e2b305.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a986a95301e671fce2c6472dffc862a1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,8 +108,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#editing-and-writing-code" id="toc-editing-and-writing-code" class="nav-link active" data-scroll-target="#editing-and-writing-code">Editing and Writing Code</a>
+  <ul class="collapse">
+  <li><a href="#auto-completions" id="toc-auto-completions" class="nav-link" data-scroll-target="#auto-completions">auto completions</a></li>
+  <li><a href="#lightbulbs" id="toc-lightbulbs" class="nav-link" data-scroll-target="#lightbulbs">lightbulbs</a></li>
+  <li><a href="#commenting-and-formatting-code" id="toc-commenting-and-formatting-code" class="nav-link" data-scroll-target="#commenting-and-formatting-code">Commenting and Formatting Code</a>
+  <ul class="collapse">
+  <li><a href="#linters" id="toc-linters" class="nav-link" data-scroll-target="#linters">Linters</a></li>
+  </ul></li>
+  <li><a href="#try-it-yourself" id="toc-try-it-yourself" class="nav-link" data-scroll-target="#try-it-yourself">Try it yourself</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -117,8 +132,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="editing-and-writing-code" class="level1">
+<h1>Editing and Writing Code</h1>
+<p>VS Code operates like most standard text editors and in ways that are very similar to VisualStudio. In this short module, we will learn about some of VS Code’s specific functionality that facilitates code editing.</p>
+<p>Note: the commands described here assume that Copilot is not enabled. We will cover Copilot in a later module.</p>
+<section id="auto-completions" class="level2">
+<h2 class="anchored" data-anchor-id="auto-completions">auto completions</h2>
+<p>VS Code, like most editors, offers intelligent auto-completion suggestions based on the programming language you’re using. These suggestions are presented as you type code. For example, if VS Code knows that you are writing code in Python (from the file name and other configuration settings), it suggests <code>print</code> as you type “pr”. Your screen reader announces the first suggestion as you type. You can arrow up and down between suggestions and press enter to insert them.</p>
+</section>
+<section id="lightbulbs" class="level2">
+<h2 class="anchored" data-anchor-id="lightbulbs">lightbulbs</h2>
+<p>Lightbulbs are visual indicators that appear when VS Code has suggestions for improving or fixing your code. these often are shown next to lines with errors, warnings, or potential improvements to convey that VS Code has quick fixes or refactoring options available.</p>
+<p>You can know if a line has a lightbulb, and access the code fix suggestions by presssing control+dot (period). Your screen reader will announce the available options, and you can navigate through them using the arrow keys. These suggestions might include fixing syntax errors, importing missing modules, or suggesting more efficient code patterns. This feature is particularly valuable for learning proper coding practices and catching mistakes early.</p>
+</section>
+<section id="commenting-and-formatting-code" class="level2">
+<h2 class="anchored" data-anchor-id="commenting-and-formatting-code">Commenting and Formatting Code</h2>
+<p>VS Code supports the ability to comment single or multiple lines of code using keyboard shortcuts. This can be helpful when testing out variations of code. To comment a line of code, place your cursor on the desired line and press control+k, control+c.&nbsp;VS Code, again, recognizes the language you are writing in, and adds the appropriate single-line comment syntax. You can select multiple lines of code using shift+down arrow, and press the shortcut to comment all of the selected lines. To uncomment a line, press control+k, control+u. If you select multiple lines and press this keyboard shortcut, you will uncomment the code.</p>
+<p>VS Code also supports the ability to automatically format code as per a particular specification. You can customize formatting preferences by pressing <strong>Control+Shift+P</strong> to open the command palette, then typing “Preferences: Open Settings” and pressing Enter. Search for “formatting” to find relevant options. Here you can choose different formatters for each programming language and adjust indentation, spacing, and other style preferences. To format code, select a block of code, or all of it, and press control+k, control+f.&nbsp;You can also set VS Code to format your code upon save by enabling “Format On Save” in the settings under Editor &gt; Format On Save.</p>
+<section id="linters" class="level3">
+<h3 class="anchored" data-anchor-id="linters">Linters</h3>
+<p>Linters are tools that analyze your code for potential errors, style violations, and code quality issues. They help enforce coding standards and catch problems before you run your code. VS Code supports linters for most programming languages through extensions. For example, Python developers often use pylint or flake8, while JavaScript developers might use ESLint. When a linter is active, it will underline problematic code with colored squiggles that VS Code can alert you to, using audio signals.</p>
+</section>
+</section>
+<section id="try-it-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="try-it-yourself">Try it yourself</h2>
+<p>With everything that you have learned in the previous and current chapter, fix the error in the code. Describe the steps you have undertaken to fix the code.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

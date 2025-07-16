@@ -1,127 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://xability.github.io/data-vision/index.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/1_language-agnostic-ds/03-data-types.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/advanced_ds-with-py/01-tidy-data-with-pandas.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/07-mcp.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/03-quick-chat.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/05-copilot-edits.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/05-heat-map.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/04-box-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/06-scatter-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/02-histogram.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/04-box-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/06-scatter-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
+    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/03-line-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/02-histogram.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/02-audioFeedback.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/01-introToVSCode.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/course.html</loc>
-    <lastmod>2025-07-08T20:34:54.635Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/03-extensions.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/04-readingWritingCode.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/05-runningCode.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/01-bar-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/03-line-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/05-heat-map.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/01-bar-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/03-line-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/02-histogram.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/07-stacked-bar-plot.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
   </url>
   <url>
-    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/06-agent-mode.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/06-scatter-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/03-extensions.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/04-readingCode.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/02-audioFeedback.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/5_github-copilot/04-inline-chat.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/01-copilot-intro-and-setup.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/5_github-copilot/02-panel-chat.html</loc>
-    <lastmod>2025-07-08T20:34:54.637Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
   </url>
   <url>
-    <loc>https://xability.github.io/data-vision/modules/1_language-agnostic-ds/02-what-is-tidy-data.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
+    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/07-mcp.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/05-copilot-edits.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/1_language-agnostic-ds/03-data-types.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/course.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/index.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
   </url>
   <url>
     <loc>https://xability.github.io/data-vision/modules/1_language-agnostic-ds/01-what-is-data-science.html</loc>
-    <lastmod>2025-07-08T20:34:54.636Z</lastmod>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/1_language-agnostic-ds/02-what-is-tidy-data.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/06-agent-mode.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/01-copilot-intro-and-setup.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/5_github-copilot/03-quick-chat.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/06-runningCode.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/01-introToVSCode.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/3_vscode-101/05-writingCode.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/advanced_ds-with-py/01-tidy-data-with-pandas.html</loc>
+    <lastmod>2025-07-16T20:06:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/01-bar-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/04-box-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/4_vis-with-maidr/05-heat-map.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/06-scatter-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/04-box-plot.html</loc>
+    <lastmod>2025-07-16T20:06:43.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xability.github.io/data-vision/modules/2_language-agnostic-vis/05-heat-map.html</loc>
+    <lastmod>2025-07-16T20:06:43.290Z</lastmod>
   </url>
 </urlset>
