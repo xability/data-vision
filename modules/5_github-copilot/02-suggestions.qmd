@@ -1,0 +1,56 @@
+# working with Copilot Suggestions
+
+Recall that VS Code provides suggestions as you edit code. We discussed this in our chapter about writing code. Copilot suggestions are very similar, they are very supercharged -- often spanning multiple lines and entire methods. Copilot provides 2 types of suggestions:
+1. Suggestions. These would be the most relevant code insertions at the current cursor positions.
+2. Next edit suggestions. These are edits that Copilot suggests to multiple non-consecutive lines of code. Let's understand both in this chapter.
+
+## Copilot Suggestions
+These suggestions are very similar to the treditional auto-complete, except that they span multiple consecutive lines and some times entire methods and code blocks.
+ I am listing a few key differences to keep in mind as you develop an understanding of copilot suggestions.
+*  each suggestion could span multiple lines. This means that you may hear screen readers announce entire functions as suggestions. This can sometimes be hard to remember!
+* Similar to code suggestions, CoPilot also provides multiple suggestions. However, arrowing up and down will not take you to previous and the next suggestion.
+* there are no new keyboard shortcuts to invoke copilot suggestions. They appear as you type, often in place of the treditional suggestions. The presence of a copilot suggestion is indicated by the screen reader announcing "GitHub Copilot suggestion" or a similar audio cue. When you hear the suggestion, you can do the following:
+* accept by pressing tab
+* Review it line-by-line, character-by-character by pressing alt+f2 to open it in the accessible view.
+* go to previous and next suggestion by pressing control+[ or control+]
+
+## Try it yourself
+
+1. Create a new python file using the``` create: new file```
+option from the command pallett.
+2. start to type ```python def primality_test: ```
+3. once you hear the GitHub Copilot suggestion announcement, press alt+f2 to review it in the accessible view.
+4. press shift+tab to go to the acccessibility view toolbar.
+5. Navigate this toolbar using the left and right arrow keys.
+6. Accept the suggestion using the option provided.
+
+## Assignment 1: Working with Copilot Suggestions
+
+Please answer the following questions.
+1. In a new file, type ```python def factorial ``` and review the CoPilot suggestion.
+2. Copy the code suggestion from the accessible view and paste it.
+3. copy the second code suggestion and paste it.
+4. What is the keyboard shortcut to accept the suggestion?
+
+## Next Edit Suggestions
+
+Next Edit suggestions are a copilot feature that make edit suggestions at locations beyond your current cursor position. While CoPilot suggestions suggest the most relevant code that could be inserted at the current position, next edit suggestions suggest code changes for multiple lines of code that could be several lines below the current cursor position. For example, if you rename a function's name in its definition, next edit suggestions could include renaming other functions to follow similar naming conventions. Let's try this.
+
+### Try it yourself
+
+1. Open a new Python file.
+2. start typing ```python def add_numbers ```
+3. Accept the Copilot suggestion.
+4. Press enter.
+5. Start typing ```python def subtract_numbers ```
+6. Accept the suggested function definition.
+7. Go back to the add_numbers definition and remove the _. Copilot should play the next edit suggestion sound or chime.
+8. Press alt+f2 to review the suggestion in the accessible view.
+9. The accessible view will contain multiple lines of code. You will hear a "diff line removed" sound when you encounter the next suggestion. This will be your old code line.
+10. The next line will contain the suggested code. You will here a "diff line added" sound.
+11. Press shift+tab to go to the accessible view and accept the suggestion.
+
+### Assignment 2.
+Please answer the following questions.
+1. What is the keyboard shortcut to accept the suggestion?
+2. What was the suggested next edit?
