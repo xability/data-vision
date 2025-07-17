@@ -35,12 +35,9 @@ title: "Course Content"
 
 ## AI assisted Programming
 * [Copilot Intro and Setup](modules/5_github-copilot/01-copilot-intro-and-setup.qmd)
-* [Panel Chat](modules/5_github-copilot/02-panel-chat.qmd)
-* [Quick Chat](modules/5_github-copilot/03-quick-chat.qmd)
-* [Inline Chat](modules/5_github-copilot/04-inline-chat.qmd)
-* [Copilot Edits](modules/5_github-copilot/05-copilot-edits.qmd)
-* [Agent Mode](modules/5_github-copilot/06-agent-mode.qmd)
-* [MCP](modules/5_github-copilot/07-mcp.qmd)
+* [Suggestions](C:\Users\venka\code\vscode-tutorial-repo\data-vision\modules/5_github-copilot/02-suggestions.qmd)
+* [Chat](C:\Users\venka\code\vscode-tutorial-repo\data-vision\modules/5_github-copilot/03-chat.qmd)
+* [Agent Mode](modules/5_github-copilot/04-agent-mode.qmd)
 
 ## A Preview of Emerging Approaches to AI assisted Information Seeking
 

@@ -1,0 +1,58 @@
+# Copilot Chat: Part 1 of 2.
+
+Copilot Chat is an interactive AI assistant that lets you have conversations about your code, get explanations, and receive help with programming tasks directly within VS Code. VS Code makes extensive use of audio cues and the accessible view to make chat accessible. I will list the signal sounds that you may hear.
+Copilot Chat provides 3 modes: ask, edit, agent. Ask mode allows you to ask questions and get explanations about code. Edit mode helps you modify existing code with natural language instructions. With Agent Mode, you can have copilot generate entire codebases across multiple files, run commands, and iterate on its work. We will cover chat and agent in this tutorial. Edit is very similar to agent and next edit suggestions so we will not be explisitly covering it.
+
+## Ask Mode
+
+Ask mode is the most basic way to interact with Copilot Chat, where you can ask questions about programming concepts, get code explanations, or request help with specific coding problems. You can access Copilot Chat by pressing Control+alt+i or by opening the Command Palette (**Control+Shift+P**) and typing "Copilot Chat: Open Chat".
+
+You can ask Copilot Chat straightforward questions about programming concepts, syntax, or best practices. For example:
+- "What is a Python dictionary?"
+- "How do I create a for loop in Python?"
+- "What's the difference between a list and a tuple?"
+- "How do I handle exceptions in Python?"
+
+Copilot Chat will provide clear explanations with code examples 
+
+Once you open the chat, your cursor will be placed in the edit field. You can type your question, and press enter to submit it. Similar to other chat applications, you can press shift+enter to insert a new line in the chat box. I highly encourage you to go through the accessibility help for the chat edit field.
+
+Once you submit the question, you will hear the chat request sent audio signal and announcement. Copilot indicates that it is processing the question by playing the progress audio signal and announcement. Once Copilot has a response, it will indicate this by playing the chat response received audio signal and announcement. The screen reader starts reading the response.
+
+You can explore the chat response by pressing alt+f2.
+
+### Try it yourself
+
+1. Open VS Code and press Control+alt+i to open Copilot Chat.
+2. Ask a simple question: "What is the difference between == and is in Python?"
+3. Read through the response using your screen reader.
+
+### Assignment 3
+
+1. Open the `read_exampleCode.py` file from our previous lesson.
+2. Select the `NumberProcessor` class definition.
+3. In Copilot Chat, type: "Explain what this class does and how it works."
+4. Compare the explanation to your own understanding of the code.
+5. Submit your reflection comparing CoPilot's response with your prior understanding of the code.
+
+## Providing context.
+You can provide the model context using the @ (at the rate) symbol.
+
+When you type @ in the chat box, VS Code will show you a list of available context options that you can reference. Common context options include:
+- **@workspace**: Provides information about your entire workspace and project structure
+- **@file**: References a specific file in your project
+- **@selection**: Uses the currently selected code in your editor
+- **@terminal**: References recent terminal output or commands
+
+For example, you can type "@file:example.py explain this function" to get Copilot to analyze a specific file, or "@selection what does this code do?" to get explanations about selected code.
+
+You can also instruct chat to execute specific commands like fetching information from a link, generating documentation for your code, or creating unit tests using the # (number) key.
+
+When you type # in the chat box, VS Code will show you a list of available commands. Some useful examples include:
+- **#doc**: Generate documentation for your code
+- **#tests**: Create unit tests for your functions
+- **#explain**: Get detailed explanations of code functionality
+- **#fix**: Suggest fixes for code issues or bugs
+
+For example, you can type "#doc @selection" to generate documentation for the currently selected code, or "#tests @file:calculator.py" to create unit tests for a specific file.
+
